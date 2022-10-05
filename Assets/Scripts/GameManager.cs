@@ -6,6 +6,7 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    [Header("Characters")]
     public CharactersBehavior cb1;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
     public CharactersBehavior cb2;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
     public CharactersBehavior cb3;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
@@ -15,27 +16,28 @@ public class GameManager : MonoBehaviour
     public CharactersBehavior cb7;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
     public CharactersBehavior cb8;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
 
+    [Header("Percussion Buttons")]
     public Button[] percussion;     // Referencia a los botones de la mesa de DJ relacionados a la percusión.
+    [Header("Style Buttons")]
     public Button[] style;      // Referencia a los botones de la mesa de DJ relacionados al estilo.
+    [Header("Lights Buttons")]
     public Button[] lights;     // Referencia a los botones de la mesa de DJ relacionados a las luces.
   
-
+    [Header("Selected Percusion")]
     public int percussionSelected = 1;      // Variable que contiene el valor de la percusión seleccionada.
 
+    [Header("Selected Style")]
     public bool style1 = false;     // Variable que contiene si el estilo 1 está activado o desactivado.
     public bool style2 = false;     // Variable que contiene si el estilo 2 está activado o desactivado.
     public bool style3 = false;     // Variable que contiene si el estilo 3 está activado o desactivado.
     public bool style4 = false;     // Variable que contiene si el estilo 4 está activado o desactivado.
     public bool style5 = false;     // Variable que contiene si el estilo 5 está activado o desactivado.
     public bool style6 = false;     // Variable que contiene si el estilo 6 está activado o desactivado.
-    
-    
     public int currentStyle = 0;        // Variable que contiene el estilo actual seleccionado.
     public int lastStyle = 0;       // Variable que contiene el penúltimo estilo seleccionado.
-
-    
     public int stylesSelected = 0;      // Variable que contiene la cantidad de estilos seleccionados.
 
+    [Header("Selected Lights")]
     public int lightsValue1 = 0;        // [alegría - tristeza] Variable que contiene los valores de la perilla para controlar la luz 1. 
     public int lightsValue2 = 0;        // [confianza - aversión] Variable que contiene los valores de la perilla para controlar la luz 2.
     public int lightsValue3 = 0;        // [anticipación - sorpresa] Variable que contiene los valores de la perilla para controlar la luz 3.

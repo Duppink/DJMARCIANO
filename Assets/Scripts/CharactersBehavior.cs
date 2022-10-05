@@ -7,16 +7,19 @@ public class CharactersBehavior : MonoBehaviour
 {
     public GameManager gm;      // Referencia al script Game Manager.
 
+    
+    [Header("Favorites")]
     public int favPercussion;       // Variable que contiene la percusión favorita del personaje.
     public int favStyle;        // Variable que contiene el estilo favorito del personaje.
     public int favLights;       // Variable que contiene la luz favorita del personaje.
 
+    [Header("Satisfaction")]
     public bool satisfiedPercussion = false;        // Variable que evalúa si la percusión favorita del personaje está sonando o no.
     public bool satisfiedStyle = false;     // Variable que evalúa si el estilo favorito del personaje está sonando o no.
     public bool satisfiedLights = false;        // Variable que evalúa si la luz favorita del personaje está visible o no.
-
     public int satisfactionLevel = 0;       // Variable que contiene el valor de la satisfacción personal del personaje.
 
+    [Header("Texts")]
     public TextMeshProUGUI personalSatisfaction;        // Referencia al texto que muestra la satisfacción personal del personaje.
     
 
