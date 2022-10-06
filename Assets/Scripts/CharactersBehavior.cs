@@ -6,7 +6,7 @@ using TMPro;
 public class CharactersBehavior : MonoBehaviour
 {
     public GameManager gm;      // Referencia al script Game Manager.
-
+    public GameObject interactable1; 
     
     [Header("Favorites")]
     public int favPercussion;       // Variable que contiene la percusión favorita del personaje.
@@ -28,6 +28,11 @@ public class CharactersBehavior : MonoBehaviour
     {
        personalSatisfaction.text = satisfactionLevel.ToString();        // Actualización del texto "personalSatisfaction" para que muestre el valor de la variable "satisfactionLevel".     
        
+        if (satisfactionLevel == 3)
+        {
+            interactable1.SetActive(true);
+        }
+
     }
 
 
@@ -37,7 +42,9 @@ public class CharactersBehavior : MonoBehaviour
         if (gm.percussionSelected == favPercussion && satisfiedPercussion == false) 
         {
             satisfiedPercussion = true;
-            satisfactionLevel = satisfactionLevel + 1;            
+            satisfactionLevel = satisfactionLevel + 1;  
+
+                     
         }
 
         else 
@@ -49,6 +56,7 @@ public class CharactersBehavior : MonoBehaviour
                 satisfiedPercussion = false;
                 satisfactionLevel = satisfactionLevel - 1;
             }
+              
         }
         
 
@@ -66,6 +74,7 @@ public class CharactersBehavior : MonoBehaviour
                 satisfiedStyle = true;
                 satisfactionLevel = satisfactionLevel + 1;            
              }
+             
         }
 
         
@@ -84,6 +93,7 @@ public class CharactersBehavior : MonoBehaviour
                 satisfactionLevel = satisfactionLevel - 1;
                 }
             }
+             
             
         }
     }
@@ -100,6 +110,7 @@ public class CharactersBehavior : MonoBehaviour
                     satisfiedLights = true;
                     satisfactionLevel = satisfactionLevel + 1;
                 }
+                
         }
 
         
@@ -116,10 +127,15 @@ public class CharactersBehavior : MonoBehaviour
                     satisfiedLights = false;
                     satisfactionLevel = satisfactionLevel - 1;
                 }
+                
             }
             
         }
-    }
+       
 
+    }
+    
+        
+           
 
 }
