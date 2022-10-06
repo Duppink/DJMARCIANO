@@ -47,6 +47,6 @@ public class ControlDialogos : MonoBehaviour
 
     public void CierraCartel()
     {
-        gameObject.SetActive(false);
+        gameObject.transform.position = new Vector3 (0,-100,0);
     }
 }

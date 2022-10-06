@@ -33,6 +33,11 @@ public class CharactersBehavior : MonoBehaviour
             interactable1.SetActive(true);
         }
 
+        else
+        {
+            interactable1.SetActive(false);
+        }
+
     }
 
 

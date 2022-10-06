@@ -10,7 +10,7 @@ public class ObjetoInteractuable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        controlDialogos.position = new Vector3(100, 300, 0);
+        controlDialogos.position = new Vector3(300, 280, 0);
         FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
         Debug.Log("caca"); 
     }
