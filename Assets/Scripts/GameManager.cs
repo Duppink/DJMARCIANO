@@ -273,7 +273,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style3 = false;
-                am.Style1Off(); // AUDIO
+                am.Style3Off(); // AUDIO
 
                 if (currentStyle == 3) 
                 

@@ -51,7 +51,7 @@ public class ControlDialogos : MonoBehaviour
 
     public void CierraCartel()
     {
-        gameObject.transform.position = new Vector3 (0,-100,0);
+        gameObject.transform.position = new Vector3 (0,-138,0);
         //cloud.enabled = false;
     }
 }

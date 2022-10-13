@@ -16,7 +16,7 @@ public class ObjetoInteractuable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        controlDialogos.position = new Vector3(530, 70, 0);
+        controlDialogos.position = new Vector3(1650, 200, 0);
         //cloud.enabled = !cloud.enabled;
         FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
         Debug.Log("caca"); 
