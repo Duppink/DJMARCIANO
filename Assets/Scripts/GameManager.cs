@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
     public int lightsValue3 = 0;        // [anticipación - sorpresa] Variable que contiene los valores de la perilla para controlar la luz 3.
     public int lightsValue4 = 0;        // [ira - miedo] Variable que contiene los valores de la perilla para controlar la luz 4.
 
+    public LightsController lc; 
+
 
     //PercussionSelected
     public void PercussionSelected1()       // Función que determina que se ha seleccionado la percusión 1.
@@ -466,6 +468,66 @@ public class GameManager : MonoBehaviour
 
     public void ClickOnLights1()        // Función que determina que se ha girado la perilla de luz 1.
     {
+        if (lightsValue1 == 4) 
+        {
+            lightsValue1 = 0;
+
+            cb1.FavLig();
+            cb2.FavLig();
+            cb3.FavLig();
+            cb4.FavLig();
+            cb5.FavLig();
+            cb6.FavLig();
+            cb7.FavLig();
+            cb8.FavLig();
+            lc.ChangeColorToNeutralWhite();
+        }
+
+        if (lightsValue1 == 3) 
+        {
+            lightsValue1 = 4;
+
+            cb1.FavLig();
+            cb2.FavLig();
+            cb3.FavLig();
+            cb4.FavLig();
+            cb5.FavLig();
+            cb6.FavLig();
+            cb7.FavLig();
+            cb8.FavLig();
+            lc.ChangeColorToGreen();
+        }
+
+        if (lightsValue1 == 2) 
+        {
+            lightsValue1 = 3;
+
+            cb1.FavLig();
+            cb2.FavLig();
+            cb3.FavLig();
+            cb4.FavLig();
+            cb5.FavLig();
+            cb6.FavLig();
+            cb7.FavLig();
+            cb8.FavLig();
+            lc.ChangeColorToYellow();
+        }
+        
+        if (lightsValue1 == 1) 
+        {
+            lightsValue1 = 2;
+
+            cb1.FavLig();
+            cb2.FavLig();
+            cb3.FavLig();
+            cb4.FavLig();
+            cb5.FavLig();
+            cb6.FavLig();
+            cb7.FavLig();
+            cb8.FavLig();
+            lc.ChangeColorToBlue();
+        }
+
         if (lightsValue1 == 0) 
         {
             lightsValue1 = 1;
@@ -477,20 +539,32 @@ public class GameManager : MonoBehaviour
             cb5.FavLig();
             cb6.FavLig();
             cb7.FavLig();
-            cb8.FavLig();  
+            cb8.FavLig();
+            lc.ChangeColorToRed();
+        
         }
 
-        else 
+        
+
+        
+
+        
+
+        
+
+        /*else 
         {           
 
             if (lightsValue1 == -1) 
             {
                 lightsValue1 = 0;
+                lc.ChangeColorToNeutralWhite();
             }
 
             if (lightsValue1 == 1) 
             {
                 lightsValue1 = -1;
+                lc.ChangeColorToBlue();
             }
 
             cb1.FavLig();
@@ -501,7 +575,8 @@ public class GameManager : MonoBehaviour
             cb6.FavLig();
             cb7.FavLig();
             cb8.FavLig();
-        } 
+            
+        } */
 
          
                 
