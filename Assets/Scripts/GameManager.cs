@@ -6,6 +6,8 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
+    public AudioManager am;
+
     [Header("Characters")]
     public CharactersBehavior cb1;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
     public CharactersBehavior cb2;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
@@ -50,6 +52,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected1()       // Función que determina que se ha seleccionado la percusión 1.
     {
         percussionSelected = 1;
+        am.Perc1On(); // AUDIO
+
         cb1.FavPerc();
         cb2.FavPerc();
         cb3.FavPerc();
@@ -64,6 +68,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected2()       // Función que determina que se ha seleccionado la percusión 2.
     {
         percussionSelected = 2;
+        am.Perc2On(); // AUDIO
+
         cb1.FavPerc();
         cb2.FavPerc();
         cb3.FavPerc();
@@ -77,6 +83,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected3()       // Función que determina que se ha seleccionado la percusión 3.
     {
         percussionSelected = 3;
+        am.Perc3On(); // AUDIO
+
         cb1.FavPerc();
         cb2.FavPerc();
         cb3.FavPerc();
@@ -89,6 +97,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected4()       // Función que determina que se ha seleccionado la percusión 4.
     {
         percussionSelected = 4;
+        am.Perc4On(); // AUDIO
+
         cb1.FavPerc();
         cb2.FavPerc();
         cb3.FavPerc();
@@ -108,6 +118,7 @@ public class GameManager : MonoBehaviour
         
         {
             style1 = true;
+            am.Style1On(); // AUDIO
             
             if (currentStyle != 0) 
             {
@@ -135,6 +146,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style1 = false;
+                am.Style1Off(); // AUDIO
 
                 if (currentStyle == 1) 
                 
@@ -171,6 +183,7 @@ public class GameManager : MonoBehaviour
         
         {
             style2 = true;
+            am.Style2On(); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -196,7 +209,8 @@ public class GameManager : MonoBehaviour
 
             {
                 stylesSelected = stylesSelected - 1;
-                style2 = false;  
+                style2 = false;
+                am.Style2Off(); // AUDIO  
 
                 if (currentStyle == 2) 
                 
@@ -231,6 +245,7 @@ public class GameManager : MonoBehaviour
         
         {
             style3 = true;
+            am.Style3On(); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -258,6 +273,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style3 = false;
+                am.Style1Off(); // AUDIO
 
                 if (currentStyle == 3) 
                 
@@ -292,6 +308,7 @@ public class GameManager : MonoBehaviour
         
         {
             style4 = true;
+            am.Style4On(); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -318,6 +335,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style4 = false;
+                am.Style4Off(); // AUDIO
 
                 if (currentStyle == 4) 
                 
@@ -352,6 +370,7 @@ public class GameManager : MonoBehaviour
         
         {
             style5 = true;
+            am.Style5On(); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -378,6 +397,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style5 = false;
+                am.Style5Off(); // AUDIO
 
                 if (currentStyle == 5) 
                 
@@ -411,6 +431,7 @@ public class GameManager : MonoBehaviour
         
         {
             style6 = true;
+            am.Style6On(); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -437,6 +458,7 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style6 = false;
+                am.Style6Off(); // AUDIO
 
                 if (currentStyle == 6) 
                 

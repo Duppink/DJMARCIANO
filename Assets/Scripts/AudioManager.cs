@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioManager : MonoBehaviour
-{
+{    
     public AudioSource perc1;
     public AudioSource perc2;
     public AudioSource perc3;
@@ -64,4 +64,60 @@ public class AudioManager : MonoBehaviour
         perc3.volume = 0;
         perc4.volume = 10;
     }
+
+    // Funciones de Styles
+    public void Style1On()
+    {
+        style1.volume = 10;
+    }
+    public void Style1Off()
+    {
+        style1.volume = 0;
+    } 
+
+    public void Style2On()
+    {
+        style2.volume = 10;
+    }
+    public void Style2Off()
+    {
+        style2.volume = 0;
+    } 
+
+    public void Style3On()
+    {
+        style3.volume = 10;
+    }
+    public void Style3Off()
+    {
+        style3.volume = 0;
+    }  
+
+    public void Style4On()
+    {
+        style4.volume = 10;
+    }
+    public void Style4Off()
+    {
+        style4.volume = 0;
+    }  
+
+    public void Style5On()
+    {
+        style5.volume = 10;
+    }
+    public void Style5Off()
+    {
+        style5.volume = 0;
+    }   
+
+    public void Style6On()
+    {
+        style6.volume = 10;
+    }
+    public void Style6Off()
+    {
+        style6.volume = 0;
+    }        
+
 }
