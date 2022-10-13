@@ -582,7 +582,7 @@ public class GameManager : MonoBehaviour
                 
     }
 
-    public void ClickOnLights2()        // Función que determina que se ha girado la perilla de luz 2.
+    /*public void ClickOnLights2()        // Función que determina que se ha girado la perilla de luz 2.
     {
         if (lightsValue2 == 0) 
         {
@@ -622,13 +622,13 @@ public class GameManager : MonoBehaviour
         }
         
                 
-    }
+    }*/
 
     public void ClickOnLights3()        // Función que determina que se ha girado la perilla de luz 3.
     {
         if (lightsValue3 == 0) 
         {
-            lightsValue3 = 3;
+            lightsValue3 = 5;
 
             cb1.FavLig();
             cb2.FavLig();
@@ -643,14 +643,14 @@ public class GameManager : MonoBehaviour
         else 
         {           
 
-            if (lightsValue3 == -3) 
+            if (lightsValue3 == 6) 
             {
                 lightsValue3 = 0;
             }
 
-            if (lightsValue3 == 3) 
+            if (lightsValue3 == 5) 
             {
-                lightsValue3 = -3;
+                lightsValue3 = 6;
             }
 
             cb1.FavLig();
@@ -669,7 +669,7 @@ public class GameManager : MonoBehaviour
     {
         if (lightsValue4 == 0) 
         {
-            lightsValue4 = 4;
+            lightsValue4 = 7;
 
             cb1.FavLig();
             cb2.FavLig();
@@ -684,14 +684,14 @@ public class GameManager : MonoBehaviour
         else 
         {           
 
-            if (lightsValue4 == -4) 
+            if (lightsValue4 == 8) 
             {
                 lightsValue4 = 0;
             }
 
-            if (lightsValue4 == 4) 
+            if (lightsValue4 == 7) 
             {
-                lightsValue4 = -4;
+                lightsValue4 = 8;
             }
 
             cb1.FavLig();

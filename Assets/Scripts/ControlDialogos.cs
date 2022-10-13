@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ControlDialogos : MonoBehaviour
 {
@@ -10,9 +11,12 @@ public class ControlDialogos : MonoBehaviour
     //public GameObject cartel;
     [SerializeField] TextMeshProUGUI textoPantalla;
 
+    //public Image cloud;
+
     void Start()
     {
         colaDialogos = new Queue<string> ();
+        //cloud = GetComponent<Image>();
     }
 
     public void ActivarCartel(Textos textoObjeto)
@@ -48,5 +52,6 @@ public class ControlDialogos : MonoBehaviour
     public void CierraCartel()
     {
         gameObject.transform.position = new Vector3 (0,-100,0);
+        //cloud.enabled = false;
     }
 }
