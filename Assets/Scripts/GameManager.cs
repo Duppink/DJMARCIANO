@@ -503,6 +503,7 @@ public class GameManager : MonoBehaviour
             cb7.FavLig();
             cb8.FavLig();
             lc.ChangeColorToNeutralWhite();
+            return;
         }
 
         if (lightsValue1 == 3) 
@@ -518,6 +519,7 @@ public class GameManager : MonoBehaviour
             cb7.FavLig();
             cb8.FavLig();
             lc.ChangeColorToGreen();
+            return;
         }
 
         if (lightsValue1 == 2) 
@@ -533,6 +535,7 @@ public class GameManager : MonoBehaviour
             cb7.FavLig();
             cb8.FavLig();
             lc.ChangeColorToYellow();
+            return;
         }
         
         if (lightsValue1 == 1) 
@@ -548,6 +551,7 @@ public class GameManager : MonoBehaviour
             cb7.FavLig();
             cb8.FavLig();
             lc.ChangeColorToBlue();
+            return;
         }
 
         if (lightsValue1 == 0) 
@@ -563,6 +567,7 @@ public class GameManager : MonoBehaviour
             cb7.FavLig();
             cb8.FavLig();
             lc.ChangeColorToRed();
+            return;
         
         }
 
