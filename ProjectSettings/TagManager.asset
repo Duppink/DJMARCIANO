@@ -44,6 +44,12 @@ TagManager:
   - name: SatisfactionPoints
     uniqueID: 2818538005
     locked: 0
-  - name: New Layer 2
+  - name: Interactuable
     uniqueID: 595612847
+    locked: 0
+  - name: Characters
+    uniqueID: 2353859127
+    locked: 0
+  - name: SoloSP
+    uniqueID: 1763804683
     locked: 0

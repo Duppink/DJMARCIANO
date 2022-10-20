@@ -8,6 +8,8 @@ public class SpritesSwitch1 : MonoBehaviour
 
     public Sprite leftOn;
     public Sprite rightOn;
+
+    public Sprite neutro;
     
 
     // Update is called once per frame
@@ -23,6 +25,11 @@ public class SpritesSwitch1 : MonoBehaviour
         if (gm.lightsValue3 == 6)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = rightOn;
+        }
+
+        if (gm.lightsValue3 == 0)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = neutro;
         }
        
     }
