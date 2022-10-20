@@ -20,6 +20,8 @@ public class LightsController : MonoBehaviour
     [Header("Pointlights Light 2D")]
     public UnityEngine.Rendering.Universal.Light2D Pointlight1;
     public UnityEngine.Rendering.Universal.Light2D Pointlight2;
+    public UnityEngine.Rendering.Universal.Light2D Pointlight3;
+    public UnityEngine.Rendering.Universal.Light2D Pointlight4;
 
     public bool activeAnticipationSpotlights;
     public int activeSurpriseSpotlights = 0;
@@ -44,6 +46,8 @@ public class LightsController : MonoBehaviour
         AnticipationSpotlights();
         SurpriseSpotlights();
         ShutdownSpotlights();
+        AversionPointlights();
+        SurprisePointlights();
     }
     public void ChangeColorToNeutralWhite()
     {
@@ -58,6 +62,8 @@ public class LightsController : MonoBehaviour
 
        Pointlight1.color = Color.white;
        Pointlight2.color = Color.white;
+       Pointlight3.color = Color.white;
+       Pointlight4.color = Color.white;
     }
 
     public void ChangeColorToRed()
@@ -73,6 +79,8 @@ public class LightsController : MonoBehaviour
 
        Pointlight1.color = Color.red;
        Pointlight2.color = Color.red;
+       Pointlight3.color = Color.red;
+       Pointlight4.color = Color.red;
     }
     public void ChangeColorToBlue()
     {
@@ -87,6 +95,8 @@ public class LightsController : MonoBehaviour
 
        Pointlight1.color = Color.blue;
        Pointlight2.color = Color.blue;
+       Pointlight3.color = Color.blue;
+       Pointlight4.color = Color.blue;
     }
     public void ChangeColorToYellow()
     {
@@ -101,6 +111,8 @@ public class LightsController : MonoBehaviour
 
        Pointlight1.color = Color.yellow;
        Pointlight2.color = Color.yellow;
+       Pointlight3.color = Color.yellow;
+       Pointlight4.color = Color.yellow;
     }
     public void ChangeColorToGreen()
     {
@@ -115,6 +127,8 @@ public class LightsController : MonoBehaviour
 
        Pointlight1.color = Color.green;
        Pointlight2.color = Color.green;
+       Pointlight3.color = Color.green;
+       Pointlight4.color = Color.green;
     }
 
     public void AnticipationSpotlights()
@@ -176,21 +190,55 @@ public class LightsController : MonoBehaviour
        }
     }
 
+    public void AversionPointlights()
+    {
+        if(gm.lightsValue4 == 0 || gm.lightsValue4 == 8)
+        {
+            Pointlight1.intensity = 0f;
+            Pointlight2.intensity = 0f;
+            return;
+        }
+        if(gm.lightsValue4 == 7)
+        {
+            Pointlight1.intensity = 1f;
+            Pointlight2.intensity = 1f;
+            return;
+        }
+    }
+
+    public void SurprisePointlights()
+    {
+        if(gm.lightsValue4 == 0 || gm.lightsValue4 == 7)
+        {
+            Pointlight3.intensity = 0f;
+            Pointlight4.intensity = 0f;
+            return;
+        }
+        if(gm.lightsValue4 == 8)
+        {
+            Pointlight3.intensity = 1f;
+            Pointlight4.intensity = 1f;
+            return;
+        }
+    }
+
     public void ShutdownSpotlights()
     {
         if(gm.lightsValue3 == 0)
         {
-            Spotlight1.intensity = 0.1f;
-            Spotlight2.intensity = 0.1f;
-            Spotlight3.intensity = 0.1f;
-            Spotlight4.intensity = 0.1f;
-            Spotlight5.intensity = 0.1f;
-            Spotlight6.intensity = 0.1f;
-            Spotlight7.intensity = 0.1f;
-            Spotlight8.intensity = 0.1f;
+            Spotlight1.intensity = 0f;
+            Spotlight2.intensity = 0f;
+            Spotlight3.intensity = 0f;
+            Spotlight4.intensity = 0f;
+            Spotlight5.intensity = 0f;
+            Spotlight6.intensity = 0f;
+            Spotlight7.intensity = 0f;
+            Spotlight8.intensity = 0f;
 
-            Pointlight1.intensity = 0.1f;
-            Pointlight2.intensity = 0.1f;
+            Pointlight1.intensity = 0f;
+            Pointlight2.intensity = 0f;
+            Pointlight3.intensity = 0f;
+            Pointlight4.intensity = 0f;
         }
     }
 
@@ -201,20 +249,20 @@ public class LightsController : MonoBehaviour
          Spotlight6.intensity = 1f;
          Spotlight8.intensity = 1f;
 
-         Spotlight1.intensity = 0.1f;
-         Spotlight3.intensity = 0.1f;
-         Spotlight5.intensity = 0.1f;
-         Spotlight7.intensity = 0.1f;
+         Spotlight1.intensity = 0f;
+         Spotlight3.intensity = 0f;
+         Spotlight5.intensity = 0f;
+         Spotlight7.intensity = 0f;
 
          activeAnticipationSpotlights = false;
     }
 
     public void ActiveAnticipationSpotlights2()
     {
-         Spotlight2.intensity = 0.1f;
-         Spotlight4.intensity = 0.1f;
-         Spotlight6.intensity = 0.1f;
-         Spotlight8.intensity = 0.1f;
+         Spotlight2.intensity = 0f;
+         Spotlight4.intensity = 0f;
+         Spotlight6.intensity = 0f;
+         Spotlight8.intensity = 0f;
 
          Spotlight1.intensity = 1f;
          Spotlight3.intensity = 1f;
@@ -226,14 +274,14 @@ public class LightsController : MonoBehaviour
 
     public void ActiveSurpriseSpotlights1()
     {
-         Spotlight1.intensity = 0.1f;
-         Spotlight2.intensity = 0.1f;
-         Spotlight3.intensity = 0.1f;
-         Spotlight4.intensity = 0.1f;
-         Spotlight5.intensity = 0.1f;
-         Spotlight6.intensity = 0.1f;
-         Spotlight7.intensity = 0.1f;
-         Spotlight8.intensity = 0.1f;
+         Spotlight1.intensity = 0f;
+         Spotlight2.intensity = 0f;
+         Spotlight3.intensity = 0f;
+         Spotlight4.intensity = 0f;
+         Spotlight5.intensity = 0f;
+         Spotlight6.intensity = 0f;
+         Spotlight7.intensity = 0f;
+         Spotlight8.intensity = 0f;
 
          activeSurpriseSpotlights = 1;
     }
@@ -243,9 +291,9 @@ public class LightsController : MonoBehaviour
          Spotlight1.intensity = 1f;
          Spotlight2.intensity = 1f;
          Spotlight3.intensity = 1f;
-         Spotlight4.intensity = 0.1f;
-         Spotlight5.intensity = 0.1f;
-         Spotlight6.intensity = 0.1f;
+         Spotlight4.intensity = 0f;
+         Spotlight5.intensity = 0f;
+         Spotlight6.intensity = 0f;
          Spotlight7.intensity = 1f;
          Spotlight8.intensity = 1f;
 
@@ -255,9 +303,9 @@ public class LightsController : MonoBehaviour
     public void ActiveSurpriseSpotlights3()
     {
          Spotlight1.intensity = 1f;
-         Spotlight2.intensity = 0.1f;
-         Spotlight3.intensity = 0.1f;
-         Spotlight4.intensity = 0.1f;
+         Spotlight2.intensity = 0f;
+         Spotlight3.intensity = 0f;
+         Spotlight4.intensity = 0f;
          Spotlight5.intensity = 1f;
          Spotlight6.intensity = 1f;
          Spotlight7.intensity = 1f;
@@ -268,14 +316,14 @@ public class LightsController : MonoBehaviour
 
     public void ActiveSurpriseSpotlights4()
     {
-         Spotlight1.intensity = 0.1f;
-         Spotlight2.intensity = 0.1f;
+         Spotlight1.intensity = 0f;
+         Spotlight2.intensity = 0f;
          Spotlight3.intensity = 1f;
          Spotlight4.intensity = 1f;
          Spotlight5.intensity = 1f;
-         Spotlight6.intensity = 0.1f;
-         Spotlight7.intensity = 0.1f;
-         Spotlight8.intensity = 0.1f;
+         Spotlight6.intensity = 0f;
+         Spotlight7.intensity = 0f;
+         Spotlight8.intensity = 0f;
 
          activeSurpriseSpotlights = 4;
     }

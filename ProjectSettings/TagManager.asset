@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Table
+  - name: SatisfactionPoints
     uniqueID: 2818538005
+    locked: 0
+  - name: New Layer 2
+    uniqueID: 595612847
     locked: 0
