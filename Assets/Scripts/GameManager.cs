@@ -5,8 +5,10 @@ using UnityEngine.UI;
 using TMPro;
 
 public class GameManager : MonoBehaviour
-{
+{   
+    [Header("Scripts")]
     public AudioManager am;
+    public LightsController lc;
 
     [Header("Characters")]
     public CharactersBehavior cb1;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
@@ -44,8 +46,38 @@ public class GameManager : MonoBehaviour
     public int lightsValue2 = 0;        // [confianza - aversión] Variable que contiene los valores de la perilla para controlar la luz 2.
     public int lightsValue3 = 0;        // [anticipación - sorpresa] Variable que contiene los valores de la perilla para controlar la luz 3.
     public int lightsValue4 = 0;        // [ira - miedo] Variable que contiene los valores de la perilla para controlar la luz 4.
+        
 
-    public LightsController lc; 
+    [Header("Time Text")]
+    public TextMeshProUGUI tiempo;
+    private int timetotext;
+    
+
+    [Header("Modifiable Times")]
+    public float timeSong;    
+    public float timeLeftToStage2;
+    public float timeLeftToStage3;
+
+    [Header("Actual Stage")]
+    public int stage = 1;
+
+
+    void Update()
+    {
+        timeSong = timeSong - 1 * Time.deltaTime;        
+        timetotext = (int)timeSong;
+        tiempo.text = timetotext.ToString();
+
+        if (timeLeftToStage2 >= timeSong)
+        {
+            stage = 2;
+        } 
+
+        if (timeLeftToStage3 >= timeSong)
+        {
+            stage = 3;
+        } 
+    }
 
 
     //PercussionSelected

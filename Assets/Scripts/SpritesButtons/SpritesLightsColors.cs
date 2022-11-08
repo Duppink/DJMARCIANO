@@ -5,12 +5,15 @@ using UnityEngine;
 public class SpritesLightsColors : MonoBehaviour
 {
     public GameManager gm;
+    public InteractableButton ib;
 
     public Sprite lights0;
     public Sprite lights1;
     public Sprite lights2;
     public Sprite lights3;
     public Sprite lights4;
+
+    public Sprite buttonDisabled;
 
     
     void Update()
@@ -40,6 +43,11 @@ public class SpritesLightsColors : MonoBehaviour
         if (gm.lightsValue1 == 4)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = lights4;
+        }
+
+        if (ib.enabledButton == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
         }
 
         

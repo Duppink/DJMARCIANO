@@ -5,8 +5,10 @@ using UnityEngine;
 public class SpritesStyle5 : MonoBehaviour
 {
     public GameManager gm;
+    public InteractableButton ib;
     public Sprite styleOn;
     public Sprite styleOff;
+    public Sprite buttonDisabled;
 
     
     void Update()
@@ -20,5 +22,11 @@ public class SpritesStyle5 : MonoBehaviour
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = styleOff;
         }
+        
+        if (ib.enabledButton == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
+        }
+
     }
 }

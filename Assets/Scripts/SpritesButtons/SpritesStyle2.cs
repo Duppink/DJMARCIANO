@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class SpritesStyle2 : MonoBehaviour
 {
-   public GameManager gm;
+    public GameManager gm;
+    public InteractableButton ib;
     public Sprite styleOn;
     public Sprite styleOff;
+    public Sprite buttonDisabled;
 
     
     void Update()
@@ -19,6 +21,11 @@ public class SpritesStyle2 : MonoBehaviour
         if (gm.style2 == false)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = styleOff;
+        }
+
+        if (ib.enabledButton == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
         }
     }
 }

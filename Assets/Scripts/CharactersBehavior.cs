@@ -6,7 +6,11 @@ using TMPro;
 public class CharactersBehavior : MonoBehaviour
 {
     public GameManager gm;      // Referencia al script Game Manager.
-    public GameObject interactable1; 
+    public GameObject interactable3;
+    public GameObject interactable2;
+    public GameObject interactable1;
+    public GameObject interactable1S2; 
+    public GameObject interactable2S3;  
     
     [Header("Favorites")]
     public int favPercussion;       // Variable que contiene la percusión favorita del personaje.
@@ -28,15 +32,113 @@ public class CharactersBehavior : MonoBehaviour
     {
        personalSatisfaction.text = satisfactionLevel.ToString();        // Actualización del texto "personalSatisfaction" para que muestre el valor de la variable "satisfactionLevel".     
        
-        if (satisfactionLevel == 3)
+       //STAGE 3
+
+        if (gm.stage == 3)
         {
-            interactable1.SetActive(true);
+            if (satisfactionLevel == 3) // MISIÓN PRINCIPAL
+            {
+            interactable3.SetActive(true);
+
+            interactable1.SetActive(false);
+            interactable1S2.SetActive(false);
+            interactable2.SetActive(false);
+            interactable2S3.SetActive(false);            
+            }
+
+            
+            if (satisfactionLevel == 2) // RELACIONES PERSONALES
+            {
+            interactable2S3.SetActive(true);
+
+            interactable1.SetActive(false);
+            interactable1S2.SetActive(false);
+            interactable2.SetActive(false);            
+            interactable3.SetActive(false);
+            }
+
+
+            if (satisfactionLevel == 1) // NADA
+            {
+            interactable1.SetActive(false);
+            interactable1S2.SetActive(false);
+            interactable2.SetActive(false);
+            interactable2S3.SetActive(false);
+            interactable3.SetActive(false);
+            }
+
+
+            if (satisfactionLevel == 0) // NADA
+            {
+            interactable1.SetActive(false);
+            interactable1S2.SetActive(false);
+            interactable2.SetActive(false);
+            interactable2S3.SetActive(false);
+            interactable3.SetActive(false);
+
+            }
+
+
+
+
+
+            
+
         }
 
-        else
+        
+
+        //STAGE 2
+
+        if (gm.stage == 2) 
         {
+            if (satisfactionLevel == 2) // MISIÓN PRINCIPAL
+            {
+            interactable2.SetActive(true);
+
+            interactable1S2.SetActive(false);
             interactable1.SetActive(false);
+            }
+
+            
+            if (satisfactionLevel == 1) // RELACIONES PERSONALES
+            {
+            interactable1S2.SetActive(true);
+
+            interactable2.SetActive(false);
+            interactable1.SetActive(false);
+            }
+
+            if (satisfactionLevel == 0) // NADA
+            {
+            interactable1S2.SetActive(false);
+            interactable2.SetActive(false);
+            interactable1.SetActive(false);
+            }           
+
         }
+
+
+        
+
+        //STAGE 1
+
+        if (gm.stage == 1)
+        {
+            if (satisfactionLevel == 1) // MISIÓN PRINCIPAL
+            {
+            interactable1.SetActive(true);
+            }
+
+            if (satisfactionLevel == 0) // nada
+            {
+            interactable1.SetActive(false);
+            }
+        }
+
+
+        
+
 
     }
 

@@ -5,10 +5,13 @@ using UnityEngine;
 public class SpritesSwitch2 : MonoBehaviour
 {
     public GameManager gm;
+    public InteractableButton ib;
 
     public Sprite leftOn;
     public Sprite rightOn;
     public Sprite neutro;
+
+    public Sprite buttonDisabled;
     
 
     // Update is called once per frame
@@ -29,6 +32,11 @@ public class SpritesSwitch2 : MonoBehaviour
         if (gm.lightsValue4 == 0)
         {
             gameObject.GetComponent<SpriteRenderer>().sprite = neutro;
+        }
+
+        if (ib.enabledButton == false)
+        {
+            gameObject.GetComponent<SpriteRenderer>().sprite = buttonDisabled;
         }
        
     }
