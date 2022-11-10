@@ -226,19 +226,19 @@ public class LightsController : MonoBehaviour
     {
         if(gm.lightsValue3 == 0)
         {
-            Spotlight1.intensity = 0f;
-            Spotlight2.intensity = 0f;
-            Spotlight3.intensity = 0f;
-            Spotlight4.intensity = 0f;
-            Spotlight5.intensity = 0f;
-            Spotlight6.intensity = 0f;
-            Spotlight7.intensity = 0f;
-            Spotlight8.intensity = 0f;
+            Spotlight1.intensity = 0.75f;
+            Spotlight2.intensity = 0.75f;
+            Spotlight3.intensity = 0.75f;
+            Spotlight4.intensity = 0.75f;
+            Spotlight5.intensity = 0.75f;
+            Spotlight6.intensity = 0.75f;
+            Spotlight7.intensity = 0.75f;
+            Spotlight8.intensity = 0.75f;
 
-            Pointlight1.intensity = 0f;
-            Pointlight2.intensity = 0f;
-            Pointlight3.intensity = 0f;
-            Pointlight4.intensity = 0f;
+            Pointlight1.intensity = 0.75f;
+            Pointlight2.intensity = 0.75f;
+            Pointlight3.intensity = 0.75f;
+            Pointlight4.intensity = 0.75f;
         }
     }
 

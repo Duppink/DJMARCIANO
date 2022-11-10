@@ -47,6 +47,28 @@ public class GameManager : MonoBehaviour
     public int lightsValue3 = 0;        // [anticipación - sorpresa] Variable que contiene los valores de la perilla para controlar la luz 3.
     public int lightsValue4 = 0;        // [ira - miedo] Variable que contiene los valores de la perilla para controlar la luz 4.
         
+    [Header("Relationship Secrets")]
+    public bool ParkourBoy_Friend_ArtChic;
+    public bool ParkourBoy_Love_PopularGirl;
+    public bool Sport_Friend_ClassPresident;
+    public bool Sport_Love_BandMember;
+    public bool Stoner_Friend_Esoteric;
+    public bool Stoner_Friend_Sport;
+    public bool PopularGirl_Friend_ClassPresident;
+    public bool PopularGirl_Love_ArtChic;
+    public bool BandMember_Friend_PopularGirl;
+    public bool BandMember_Love_Sport;
+    public bool ArtChic_Friend_ParkourBoy;
+    public bool ArtChic_Love_PopularGirl;
+    public bool ClassPresident_Friend_PopularGirl;
+    public bool ClassPresident_Friend_Sport;
+    public bool Esoteric_Friend_ArtChic;
+    public bool Esoteric_Love_Stoner;
+
+    [Header("Mision Secrets")]
+    public bool Mision1_Meteoro;
+    public bool Mision2_AgujeroNegro;
+    public bool Mision3_UFO;
 
     [Header("Time Text")]
     public TextMeshProUGUI tiempo;

@@ -600,6 +600,7 @@ MonoBehaviour:
     - "Me pregunto si le habr\xE1 gustado "
     - "el globo que le regal\xE9."
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &24005697
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1380,6 +1381,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &117789379
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1421,7 +1423,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 0, g: 0.4657101, b: 0.8666667, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -1643,6 +1645,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &143446904
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1763,6 +1766,7 @@ MonoBehaviour:
     arrayTextos:
     - ctm
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &163107070
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2056,7 +2060,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 0, g: 0.4657101, b: 0.8666667, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -2225,6 +2229,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &204740759
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3047,6 +3052,7 @@ MonoBehaviour:
     arrayTextos:
     - perkin
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &277184435
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3088,7 +3094,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 1, g: 0.99333394, b: 0.051886797, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -3279,6 +3285,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &287273367
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3400,6 +3407,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &291030143
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3779,6 +3787,7 @@ MonoBehaviour:
     - mueve el ombligo
     - mueve oh oh oh
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &336656878
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4246,7 +4255,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 1, g: 0.99333394, b: 0.051886797, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -4521,6 +4530,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &392724383
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4944,6 +4954,7 @@ MonoBehaviour:
     - "te extra\xF1o"
     - si no te veo pasar
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &427923819
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5452,7 +5463,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 0.27058825, g: 0.92941177, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -5705,6 +5716,7 @@ MonoBehaviour:
     arrayTextos:
     - aweonao
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &514332046
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6329,6 +6341,7 @@ MonoBehaviour:
     arrayTextos:
     - gil
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &566843444
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6735,6 +6748,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &588169675
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -6973,6 +6987,7 @@ MonoBehaviour:
     - un globo Saturno?
     - "Creo que pronto me ir\xE9 a casa."
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &641034032
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7134,6 +7149,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &650553724
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7954,6 +7970,7 @@ MonoBehaviour:
     arrayTextos:
     - puta la wea
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 1017164916}
 --- !u!33 &688916168
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8952,6 +8969,7 @@ MonoBehaviour:
     - 'Verdad que tengo que darte un guate a este otro gil, '
     - "es obvio que \xE9l me mand\xF3 el globo Meteorito JAJAJA"
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &774024746
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9201,6 +9219,7 @@ MonoBehaviour:
     - frutillita a comer
     - mermelada con tostada
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &800008646
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9705,6 +9724,25 @@ MonoBehaviour:
   lightsValue2: 0
   lightsValue3: 0
   lightsValue4: 0
+  ParkourBoy_Friend_ArtChic: 0
+  ParkourBoy_Love_PopularGirl: 0
+  Sport_Friend_ClassPresident: 0
+  Sport_Love_BandMember: 0
+  Stoner_Friend_Esoteric: 0
+  Stoner_Friend_Sport: 0
+  PopularGirl_Friend_ClassPresident: 0
+  PopularGirl_Love_ArtChic: 0
+  BandMember_Friend_PopularGirl: 0
+  BandMember_Love_Sport: 0
+  ArtChic_Friend_ParkourBoy: 0
+  ArtChic_Love_PopularGirl: 0
+  ClassPresident_Friend_PopularGirl: 0
+  ClassPresident_Friend_Sport: 0
+  Esoteric_Friend_ArtChic: 0
+  Esoteric_Love_Stoner: 0
+  Mision1_Meteoro: 0
+  Mision2_AgujeroNegro: 0
+  Mision3_UFO: 0
   tiempo: {fileID: 741388487}
   timeSong: 90
   timeLeftToStage2: 80
@@ -10183,6 +10221,7 @@ MonoBehaviour:
     - chascona date una vuelta
     - chascona salta en un pie
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &899343545
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11020,7 +11059,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 0.27058825, g: 0.92941177, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -11312,6 +11351,7 @@ MonoBehaviour:
     arrayTextos:
     - "weon la we\xE1"
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &993104301
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11433,6 +11473,7 @@ MonoBehaviour:
     - te dice ven ven ven
     - hace bam bam bam
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1006897281
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11490,6 +11531,7 @@ GameObject:
   - component: {fileID: 1017164915}
   - component: {fileID: 1017164912}
   - component: {fileID: 1017164913}
+  - component: {fileID: 1017164916}
   - component: {fileID: 1017164914}
   m_Layer: 5
   m_Name: Image A Parkour Boy
@@ -11622,6 +11664,22 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1017164916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017164909}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
 --- !u!1 &1039557658
 GameObject:
   m_ObjectHideFlags: 0
@@ -12653,6 +12711,7 @@ MonoBehaviour:
     - "Justo vi en un balc\xF3n a la cabra que me gusta"
     - "\xA1Bes\xE1ndose con una chica!"
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1132426426
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12774,6 +12833,7 @@ MonoBehaviour:
     - choco choco lala
     - choco choco tete
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1134505532
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12979,6 +13039,7 @@ MonoBehaviour:
     - "navidad navidad santa me cag\xF3"
     - "no me trajo niun regalo el viejo maric\xF3n"
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1153905710
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13201,6 +13262,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1203977334
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13552,6 +13614,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1263797921
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13976,6 +14039,7 @@ MonoBehaviour:
     arrayTextos:
     - culiao
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1298283624
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14324,6 +14388,7 @@ MonoBehaviour:
     arrayTextos:
     - sacowea
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1363415666
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14974,6 +15039,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1423600549
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15433,6 +15499,7 @@ MonoBehaviour:
     - JAJAJA
     - "la cara de L\xF3pez cuando recibi\xF3 mi globo."
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1471302303
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15964,6 +16031,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1507403508
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17786,6 +17854,7 @@ MonoBehaviour:
     - "No s\xE9 si querr\xE1 "
     - "seguir siendo mi amiga despu\xE9s de esto ..."
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1670776670
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18735,7 +18804,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 1, g: 0, b: 0.08144808, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -19179,7 +19248,7 @@ MonoBehaviour:
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.334
-  m_Color: {r: 1, g: 0, b: 0.08144808, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.01
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
@@ -19749,6 +19818,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1885050297
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -19870,6 +19940,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1886448355
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -20708,6 +20779,7 @@ MonoBehaviour:
     - "que no paro de so\xF1ar con lo que pas\xF3 ..."
     - parece que me gusta.
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1955566095
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21364,6 +21436,7 @@ MonoBehaviour:
     - Mmmm ...
     - "\xBFHola?"
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &1993513246
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21652,6 +21725,7 @@ MonoBehaviour:
     - "pin pon es un mu\xF1eco"
     - con cara de weon
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &2094693332
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21773,6 +21847,7 @@ MonoBehaviour:
     - relacion personal stage 3
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &2101034221
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -21893,6 +21968,7 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
+  ImpoSecre: {fileID: 0}
 --- !u!33 &2101109844
 MeshFilter:
   m_ObjectHideFlags: 0

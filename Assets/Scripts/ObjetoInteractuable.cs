@@ -8,6 +8,7 @@ public class ObjetoInteractuable : MonoBehaviour
     public Textos textos;
     public Transform controlDialogos;
     //public Image cloud;
+    public ImportantSecret ImpoSecre;
     
     private void Start()
     {
@@ -16,6 +17,7 @@ public class ObjetoInteractuable : MonoBehaviour
 
     private void OnMouseDown()
     {
+        ImpoSecre.CheckForImportantMessage();
         controlDialogos.position = new Vector3(1000, 365, 0);
         //cloud.enabled = !cloud.enabled;
         FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
