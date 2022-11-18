@@ -8,14 +8,14 @@ public class ImportantSecret : MonoBehaviour
     public GameManager gm;
     public int SP; 
     public int Stage;
+    public int identificadorMensaje;
 
     public void CheckForImportantMessage()
     {
         if(gm.stage == Stage && cb.satisfactionLevel == SP)
         {
-           Debug.Log("Mensaje Importante");
+           gm.identificador = identificadorMensaje;
         }
     }   
-
 
 }

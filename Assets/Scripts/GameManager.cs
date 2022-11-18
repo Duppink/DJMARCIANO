@@ -48,27 +48,28 @@ public class GameManager : MonoBehaviour
     public int lightsValue4 = 0;        // [ira - miedo] Variable que contiene los valores de la perilla para controlar la luz 4.
         
     [Header("Relationship Secrets")]
-    public bool ParkourBoy_Friend_ArtChic;
-    public bool ParkourBoy_Love_PopularGirl;
-    public bool Sport_Friend_ClassPresident;
-    public bool Sport_Love_BandMember;
-    public bool Stoner_Friend_Esoteric;
-    public bool Stoner_Friend_Sport;
-    public bool PopularGirl_Friend_ClassPresident;
-    public bool PopularGirl_Love_ArtChic;
-    public bool BandMember_Friend_PopularGirl;
-    public bool BandMember_Love_Sport;
-    public bool ArtChic_Friend_ParkourBoy;
-    public bool ArtChic_Love_PopularGirl;
-    public bool ClassPresident_Friend_PopularGirl;
-    public bool ClassPresident_Friend_Sport;
-    public bool Esoteric_Friend_ArtChic;
-    public bool Esoteric_Love_Stoner;
-
+    public int identificador;
+    public bool ParkourBoy_Friend_ArtChic; //1
+    public bool ParkourBoy_Love_PopularGirl; //2
+    public bool Sport_Friend_ClassPresident; //3
+    public bool Sport_Love_BandMember; //4
+    public bool Stoner_Friend_Esoteric; //5
+    public bool Stoner_Friend_Sport; //6
+    public bool PopularGirl_Friend_ClassPresident; //7
+    public bool PopularGirl_Love_ArtChic; //8
+    public bool BandMember_Friend_PopularGirl; //9
+    public bool BandMember_Love_Sport; //10
+    public bool ArtChic_Friend_ParkourBoy; //11
+    public bool ArtChic_Love_PopularGirl; //12
+    public bool ClassPresident_Friend_PopularGirl; //13
+    public bool ClassPresident_Friend_Sport; //14
+    public bool Esoteric_Friend_ArtChic; //15
+    public bool Esoteric_Love_Stoner; //16
+    
     [Header("Mision Secrets")]
-    public bool Mision1_Meteoro;
-    public bool Mision2_AgujeroNegro;
-    public bool Mision3_UFO;
+    public bool Mision1_Meteoro; //17
+    public bool Mision2_AgujeroNegro; //18
+    public bool Mision3_UFO; //19
 
     [Header("Time Text")]
     public TextMeshProUGUI tiempo;
@@ -99,6 +100,107 @@ public class GameManager : MonoBehaviour
         {
             stage = 3;
         } 
+
+
+
+        //MENSAJE IMPORTANTE
+
+        if (identificador == 1)
+        {
+            ParkourBoy_Friend_ArtChic = true;
+        }
+
+        if (identificador == 2)
+        {
+            ParkourBoy_Love_PopularGirl = true;
+        }
+
+        if (identificador == 3)
+        {
+            Sport_Friend_ClassPresident = true;
+        }
+
+        if (identificador == 4)
+        {
+            Sport_Love_BandMember = true;
+        }
+
+        if (identificador == 5)
+        {
+            Stoner_Friend_Esoteric = true;
+        }
+
+        if (identificador == 6)
+        {
+            Stoner_Friend_Sport = true;
+        }
+
+        if (identificador == 7)
+        {
+            PopularGirl_Friend_ClassPresident = true;
+        }
+
+        if (identificador == 8)
+        {
+            PopularGirl_Love_ArtChic = true;
+        }
+
+        if (identificador == 9)
+        {
+            BandMember_Friend_PopularGirl = true;
+        }
+
+        if (identificador == 10)
+        {
+            BandMember_Love_Sport = true;
+        }
+
+        if (identificador == 11)
+        {
+            ArtChic_Friend_ParkourBoy = true;
+        }
+
+        if (identificador == 12)
+        {
+            ArtChic_Love_PopularGirl = true;
+        }
+
+        if (identificador == 13)
+        {
+            ClassPresident_Friend_PopularGirl = true;
+        }
+
+        if (identificador == 14)
+        {
+            ClassPresident_Friend_Sport = true;
+        }
+
+        if (identificador == 15)
+        {
+            Esoteric_Friend_ArtChic = true;
+        }
+
+        if (identificador == 16)
+        {
+            Esoteric_Love_Stoner = true;
+        }
+
+        if (identificador == 17)
+        {
+            Mision1_Meteoro = true;
+        }
+
+        if (identificador == 18)
+        {
+            Mision2_AgujeroNegro = true;
+        }
+
+        if (identificador == 19)
+        {
+            Mision3_UFO = true;
+        }
+
+
     }
 
 
