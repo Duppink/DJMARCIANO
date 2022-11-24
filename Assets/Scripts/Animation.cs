@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using DG.Tweening;
+
 
 public class Animation : MonoBehaviour
 {
@@ -35,7 +35,6 @@ public class Animation : MonoBehaviour
         if (cb.satisfactionLevel == 1)
         {
             PlayDance1();
-            transform.DOMoveY(50, 1f).SetEase(Ease.InOutSine).SetLoops(12, LoopType.Yoyo);
         }
 
         if (cb.satisfactionLevel == 2)
