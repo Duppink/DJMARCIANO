@@ -30,94 +30,244 @@ public class AudioManager : MonoBehaviour
         style5.volume = 0;
         style6.volume = 0;
     }
+   
+   // Funciones de Percusión
 
-
-    // Funciones de Percusiones
-    public void Perc1On()
+    IEnumerator PercOn1()
     {
-        perc1.volume = 10;
-        perc2.volume = 0;
-        perc3.volume = 0;
-        perc4.volume = 0;
+        while (perc1.volume < 1)
+        {
+            perc1.volume += Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc2.volume > 0)
+        {
+            perc2.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc3.volume > 0)
+        {
+            perc3.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc4.volume > 0)
+        {
+            perc4.volume -= Time.deltaTime;
+            yield return null;
+        }
     }
 
-    public void Perc2On()
+    IEnumerator PercOn2()
     {
-        perc1.volume = 0;
-        perc2.volume = 10;
-        perc3.volume = 0;
-        perc4.volume = 0;
+        while (perc2.volume < 1)
+        {
+            perc2.volume += Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc1.volume > 0)
+        {
+            perc1.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc3.volume > 0)
+        {
+            perc3.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc4.volume > 0)
+        {
+            perc4.volume -= Time.deltaTime;
+            yield return null;
+        }
     }
 
-    public void Perc3On()
+     IEnumerator PercOn3()
     {
-        perc1.volume = 0;
-        perc2.volume = 0;
-        perc3.volume = 10;
-        perc4.volume = 0;
+        while (perc3.volume < 1)
+        {
+            perc3.volume += Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc1.volume > 0)
+        {
+            perc1.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc2.volume > 0)
+        {
+            perc2.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc4.volume > 0)
+        {
+            perc4.volume -= Time.deltaTime;
+            yield return null;
+        }
     }
 
-    public void Perc4On()
+     IEnumerator PercOn4()
     {
-        perc1.volume = 0;
-        perc2.volume = 0;
-        perc3.volume = 0;
-        perc4.volume = 10;
+        while (perc4.volume < 1)
+        {
+            perc4.volume += Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc1.volume > 0)
+        {
+            perc1.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc3.volume > 0)
+        {
+            perc3.volume -= Time.deltaTime;
+            yield return null;
+        }
+
+        while (perc2.volume > 0)
+        {
+            perc2.volume -= Time.deltaTime;
+            yield return null;
+        }
     }
+
 
     // Funciones de Styles
-    public void Style1On()
+    
+    IEnumerator StyleOn1()
     {
-        style1.volume = 10;
+        while (style1.volume < 1)
+        {
+            style1.volume += Time.deltaTime;
+            yield return null;
+        }        
     }
-    public void Style1Off()
-    {
-        style1.volume = 0;
-    } 
+  
 
-    public void Style2On()
+    IEnumerator StyleOff1()
     {
-        style2.volume = 10;
+        while (style1.volume > 0)
+        {
+            style1.volume -= Time.deltaTime;
+            yield return null;
+        }      
     }
-    public void Style2Off()
-    {
-        style2.volume = 0;
-    } 
 
-    public void Style3On()
-    {
-        style3.volume = 10;
-    }
-    public void Style3Off()
-    {
-        style3.volume = 0;
-    }  
+    //
 
-    public void Style4On()
+    IEnumerator StyleOn2()
     {
-        style4.volume = 10;
+        while (style2.volume < 1)
+        {
+            style2.volume += Time.deltaTime;
+            yield return null;
+        }        
     }
-    public void Style4Off()
-    {
-        style4.volume = 0;
-    }  
+  
 
-    public void Style5On()
+    IEnumerator StyleOff2()
     {
-        style5.volume = 10;
+        while (style2.volume > 0)
+        {
+            style2.volume -= Time.deltaTime;
+            yield return null;
+        }      
     }
-    public void Style5Off()
-    {
-        style5.volume = 0;
-    }   
 
-    public void Style6On()
+    //
+
+    IEnumerator StyleOn3()
     {
-        style6.volume = 10;
+        while (style3.volume < 1)
+        {
+            style3.volume += Time.deltaTime;
+            yield return null;
+        }        
     }
-    public void Style6Off()
+  
+
+    IEnumerator StyleOff3()
     {
-        style6.volume = 0;
-    }        
+        while (style3.volume > 0)
+        {
+            style3.volume -= Time.deltaTime;
+            yield return null;
+        }      
+    }
+
+    //
+
+    IEnumerator StyleOn4()
+    {
+        while (style4.volume < 1)
+        {
+            style4.volume += Time.deltaTime;
+            yield return null;
+        }        
+    }
+  
+
+    IEnumerator StyleOff4()
+    {
+        while (style4.volume > 0)
+        {
+            style4.volume -= Time.deltaTime;
+            yield return null;
+        }      
+    }
+
+    //
+
+    IEnumerator StyleOn5()
+    {
+        while (style5.volume < 1)
+        {
+            style5.volume += Time.deltaTime;
+            yield return null;
+        }        
+    }
+  
+
+    IEnumerator StyleOff5()
+    {
+        while (style5.volume > 0)
+        {
+            style5.volume -= Time.deltaTime;
+            yield return null;
+        }      
+    }
+
+    //
+
+    IEnumerator StyleOn6()
+    {
+        while (style6.volume < 1)
+        {
+            style6.volume += Time.deltaTime;
+            yield return null;
+        }        
+    }
+  
+
+    IEnumerator StyleOff6()
+    {
+        while (style6.volume > 0)
+        {
+            style6.volume -= Time.deltaTime;
+            yield return null;
+        }      
+    }
+
+
 
 }

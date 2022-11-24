@@ -600,6 +600,8 @@ MonoBehaviour:
     - "el globo que le regal\xE9."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &24005697
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1009,7 +1011,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 630105173}
-  m_RootOrder: 10
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1127,7 +1129,9 @@ MonoBehaviour:
     arrayTextos:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1017164916}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &117789379
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1391,6 +1395,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &143446904
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1510,7 +1516,9 @@ MonoBehaviour:
     arrayTextos:
     - ctm
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 229372469}
+  ImpoSecre2: {fileID: 1317150930}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &163107070
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1806,6 +1814,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &204740759
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -1945,6 +1955,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &215962572
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 215962574}
+  - component: {fileID: 215962573}
+  m_Layer: 5
+  m_Name: Image G_is2_Class President
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &215962573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215962572}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1750288912}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 14
+--- !u!224 &215962574
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 215962572}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 15
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &229372462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,12 +2018,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 229372463}
+  - component: {fileID: 229372469}
   - component: {fileID: 229372468}
   - component: {fileID: 229372466}
   - component: {fileID: 229372464}
   - component: {fileID: 229372467}
   m_Layer: 5
-  m_Name: Image B Sport
+  m_Name: Image B_is1_Sport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1979,7 +2044,7 @@ RectTransform:
   m_Children:
   - {fileID: 712066117}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2089,6 +2154,77 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &229372469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229372462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 3
+--- !u!1 &234939811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 234939813}
+  - component: {fileID: 234939812}
+  m_Layer: 5
+  m_Name: Image A_is2_Parkour Boy
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &234939812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234939811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 2
+--- !u!224 &234939813
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234939811}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &239261641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2626,7 +2762,9 @@ MonoBehaviour:
     arrayTextos:
     - perkin
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1325877911}
+  ImpoSecre2: {fileID: 565725897}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &277184435
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2859,6 +2997,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &287273367
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -2980,6 +3120,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &291030143
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3020,7 +3162,7 @@ RectTransform:
   - {fileID: 1975690106}
   - {fileID: 80559640}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 13
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3274,7 +3416,9 @@ MonoBehaviour:
     - mueve el ombligo
     - mueve oh oh oh
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 675064104}
+  ImpoSecre2: {fileID: 764579908}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &336656878
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -3765,6 +3909,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &392724383
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4019,7 +4165,9 @@ MonoBehaviour:
     - "te extra\xF1o"
     - si no te veo pasar
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 229372469}
+  ImpoSecre2: {fileID: 1317150930}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &427923819
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4366,7 +4514,7 @@ RectTransform:
   - {fileID: 1269384853}
   - {fileID: 1454205931}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 14
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4613,7 +4761,9 @@ MonoBehaviour:
     arrayTextos:
     - aweonao
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1485499635}
+  ImpoSecre2: {fileID: 1495562345}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &514332046
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -4957,6 +5107,60 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &565725896
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 565725898}
+  - component: {fileID: 565725897}
+  m_Layer: 5
+  m_Name: Image E_is2_Band Member
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &565725897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565725896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1325877906}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 10
+--- !u!224 &565725898
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 565725896}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &566843439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5068,7 +5272,9 @@ MonoBehaviour:
     arrayTextos:
     - gil
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1405244181}
+  ImpoSecre2: {fileID: 1529215449}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &566843444
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5475,6 +5681,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &588169675
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5578,13 +5786,21 @@ RectTransform:
   - {fileID: 1628390330}
   - {fileID: 433666744}
   - {fileID: 1017164910}
+  - {fileID: 234939813}
   - {fileID: 229372463}
+  - {fileID: 1317150931}
   - {fileID: 675064098}
+  - {fileID: 764579909}
   - {fileID: 1405244175}
+  - {fileID: 1529215450}
   - {fileID: 1325877905}
+  - {fileID: 565725898}
   - {fileID: 1061935567}
+  - {fileID: 1614837352}
   - {fileID: 1750288911}
+  - {fileID: 215962574}
   - {fileID: 1485499629}
+  - {fileID: 1495562344}
   - {fileID: 117516812}
   - {fileID: 648790700}
   - {fileID: 1370064390}
@@ -5713,6 +5929,8 @@ MonoBehaviour:
     - "Creo que pronto me ir\xE9 a casa."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &641034032
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5754,7 +5972,7 @@ RectTransform:
   - {fileID: 891323881}
   - {fileID: 1712795013}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 11
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -5874,6 +6092,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &650553724
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -5993,12 +6213,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675064098}
+  - component: {fileID: 675064104}
   - component: {fileID: 675064103}
   - component: {fileID: 675064101}
   - component: {fileID: 675064099}
   - component: {fileID: 675064102}
   m_Layer: 5
-  m_Name: Image C Stoner
+  m_Name: Image C_is1_Stoner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6018,7 +6239,7 @@ RectTransform:
   m_Children:
   - {fileID: 1561996249}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 4
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6128,6 +6349,23 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &675064104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 675064097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 675064099}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 5
 --- !u!1 &681423599
 GameObject:
   m_ObjectHideFlags: 0
@@ -6526,6 +6764,8 @@ MonoBehaviour:
     - puta la wea
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 1017164916}
+  ImpoSecre2: {fileID: 234939812}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &688916168
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7087,7 +7327,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 630105173}
-  m_RootOrder: 15
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7325,6 +7565,60 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764271385}
   m_CullTransparentMesh: 1
+--- !u!1 &764579907
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764579909}
+  - component: {fileID: 764579908}
+  m_Layer: 5
+  m_Name: Image C_is2_Stoner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &764579908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764579907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 675064099}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 6
+--- !u!224 &764579909
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 764579907}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &774024741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7440,6 +7734,8 @@ MonoBehaviour:
     - "es obvio que \xE9l me mand\xF3 el globo Meteorito JAJAJA"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &774024746
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7688,7 +7984,9 @@ MonoBehaviour:
     - frutillita a comer
     - mermelada con tostada
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1750288917}
+  ImpoSecre2: {fileID: 215962573}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &800008646
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8606,7 +8904,9 @@ MonoBehaviour:
     - chascona date una vuelta
     - chascona salta en un pie
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1061935573}
+  ImpoSecre2: {fileID: 1614837351}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &899343545
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9429,7 +9729,9 @@ MonoBehaviour:
     arrayTextos:
     - "weon la we\xE1"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1750288917}
+  ImpoSecre2: {fileID: 215962573}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &993104301
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9550,7 +9852,9 @@ MonoBehaviour:
     - te dice ven ven ven
     - hace bam bam bam
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1017164916}
+  ImpoSecre2: {fileID: 234939812}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1006897281
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -9605,13 +9909,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017164910}
+  - component: {fileID: 1017164916}
   - component: {fileID: 1017164915}
   - component: {fileID: 1017164912}
   - component: {fileID: 1017164913}
-  - component: {fileID: 1017164916}
   - component: {fileID: 1017164914}
   m_Layer: 5
-  m_Name: Image A Parkour Boy
+  m_Name: Image A_is1_Parkour Boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10023,12 +10327,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061935567}
+  - component: {fileID: 1061935573}
   - component: {fileID: 1061935572}
   - component: {fileID: 1061935570}
   - component: {fileID: 1061935568}
   - component: {fileID: 1061935571}
   m_Layer: 5
-  m_Name: Image F Art Chic
+  m_Name: Image F_is1_Art Chic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10048,7 +10353,7 @@ RectTransform:
   m_Children:
   - {fileID: 808042156}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 7
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10158,6 +10463,23 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1061935573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1061935566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 11
 --- !u!1 &1071016010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10735,6 +11057,8 @@ MonoBehaviour:
     - "\xA1Bes\xE1ndose con una chica!"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1132426426
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10855,7 +11179,9 @@ MonoBehaviour:
     - choco choco lala
     - choco choco tete
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1485499635}
+  ImpoSecre2: {fileID: 1495562345}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1134505532
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -10976,7 +11302,9 @@ MonoBehaviour:
     - "navidad navidad santa me cag\xF3"
     - "no me trajo niun regalo el viejo maric\xF3n"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1325877911}
+  ImpoSecre2: {fileID: 565725897}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1153905710
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11199,6 +11527,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1203977334
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11467,6 +11797,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1263797921
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11805,7 +12137,9 @@ MonoBehaviour:
     arrayTextos:
     - culiao
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 675064104}
+  ImpoSecre2: {fileID: 764579908}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1298283624
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -11814,6 +12148,60 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298283619}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1317150929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317150931}
+  - component: {fileID: 1317150930}
+  m_Layer: 5
+  m_Name: Image B_is2_Sport
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1317150930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317150929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 4
+--- !u!224 &1317150931
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317150929}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1325877904
 GameObject:
   m_ObjectHideFlags: 0
@@ -11823,12 +12211,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1325877905}
+  - component: {fileID: 1325877911}
   - component: {fileID: 1325877910}
   - component: {fileID: 1325877908}
   - component: {fileID: 1325877906}
   - component: {fileID: 1325877909}
   m_Layer: 5
-  m_Name: Image E Band Member
+  m_Name: Image E_is1_Band Member
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11848,7 +12237,7 @@ RectTransform:
   m_Children:
   - {fileID: 1039557659}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 6
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -11958,6 +12347,23 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1325877911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1325877904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1325877906}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 9
 --- !u!1 &1363415661
 GameObject:
   m_ObjectHideFlags: 0
@@ -12069,7 +12475,9 @@ MonoBehaviour:
     arrayTextos:
     - sacowea
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1061935573}
+  ImpoSecre2: {fileID: 1614837351}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1363415666
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -12113,7 +12521,7 @@ RectTransform:
   - {fileID: 1518063803}
   - {fileID: 544365815}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 12
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -12385,12 +12793,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1405244175}
+  - component: {fileID: 1405244181}
   - component: {fileID: 1405244180}
   - component: {fileID: 1405244178}
   - component: {fileID: 1405244176}
   - component: {fileID: 1405244179}
   m_Layer: 5
-  m_Name: Image D Popular Girl
+  m_Name: Image D_is1_Popular Girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12410,7 +12819,7 @@ RectTransform:
   m_Children:
   - {fileID: 849770814}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12520,6 +12929,23 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1405244181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405244174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 7
 --- !u!1 &1406589600
 GameObject:
   m_ObjectHideFlags: 0
@@ -12735,6 +13161,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1423600549
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13110,6 +13538,8 @@ MonoBehaviour:
     - "la cara de L\xF3pez cuando recibi\xF3 mi globo."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1471302303
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -13376,12 +13806,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485499629}
+  - component: {fileID: 1485499635}
   - component: {fileID: 1485499634}
   - component: {fileID: 1485499632}
   - component: {fileID: 1485499630}
   - component: {fileID: 1485499633}
   m_Layer: 5
-  m_Name: Image H Esoteric
+  m_Name: Image H_is1_Esoteric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13401,7 +13832,7 @@ RectTransform:
   m_Children:
   - {fileID: 335117173}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 9
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13511,6 +13942,77 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1485499635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485499628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1485499630}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 15
+--- !u!1 &1495562343
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1495562344}
+  - component: {fileID: 1495562345}
+  m_Layer: 5
+  m_Name: Image H_is2_Esoteric
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1495562344
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495562343}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 17
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1495562345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1495562343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1485499630}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 16
 --- !u!1 &1501508857
 GameObject:
   m_ObjectHideFlags: 0
@@ -13656,6 +14158,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1507403508
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -14064,6 +14568,60 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1529215448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1529215450}
+  - component: {fileID: 1529215449}
+  m_Layer: 5
+  m_Name: Image D_is2_Popular Girl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1529215449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529215448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 8
+--- !u!224 &1529215450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529215448}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1561996248
 GameObject:
   m_ObjectHideFlags: 0
@@ -14528,6 +15086,60 @@ MonoBehaviour:
   rightOn: {fileID: 21300000, guid: 2a06cf0b6ebef9e499f2ee7d452701cc, type: 3}
   neutro: {fileID: 21300000, guid: 3bee635271bfe6f4e986e9f8fd6198b5, type: 3}
   buttonDisabled: {fileID: 21300000, guid: f7c30ccb50ae43d47a091e56a102b0d7, type: 3}
+--- !u!1 &1614837350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1614837352}
+  - component: {fileID: 1614837351}
+  m_Layer: 5
+  m_Name: Image F_is2_Art Chic
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1614837351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614837350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 12
+--- !u!224 &1614837352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1614837350}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
+  m_LocalScale: {x: 72, y: 72, z: 72}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 630105173}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1628390329
 GameObject:
   m_ObjectHideFlags: 0
@@ -15241,6 +15853,8 @@ MonoBehaviour:
     - "seguir siendo mi amiga despu\xE9s de esto ..."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1670776670
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16277,12 +16891,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750288911}
+  - component: {fileID: 1750288917}
   - component: {fileID: 1750288916}
   - component: {fileID: 1750288914}
   - component: {fileID: 1750288912}
   - component: {fileID: 1750288915}
   m_Layer: 5
-  m_Name: Image G Class President
+  m_Name: Image G_is1_Class President
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16302,7 +16917,7 @@ RectTransform:
   m_Children:
   - {fileID: 806769961}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 8
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -16412,6 +17027,23 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
+--- !u!114 &1750288917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750288910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1750288912}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 13
 --- !u!1 &1772778332
 GameObject:
   m_ObjectHideFlags: 0
@@ -17036,6 +17668,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1885050297
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17157,6 +17791,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1886448355
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -17842,6 +18478,8 @@ MonoBehaviour:
     - parece que me gusta.
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1955566095
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18246,6 +18884,8 @@ MonoBehaviour:
     - "\xBFHola?"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &1993513246
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18533,7 +19173,9 @@ MonoBehaviour:
     - "pin pon es un mu\xF1eco"
     - con cara de weon
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1405244181}
+  ImpoSecre2: {fileID: 1529215449}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &2094693332
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18655,6 +19297,8 @@ MonoBehaviour:
     - relacion peeeeeersonal stage 3
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &2101034221
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18775,6 +19419,8 @@ MonoBehaviour:
     - relacion personal s2
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
+  ImpoSecre3: {fileID: 0}
 --- !u!33 &2101109844
 MeshFilter:
   m_ObjectHideFlags: 0

@@ -208,7 +208,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected1()       // Función que determina que se ha seleccionado la percusión 1.
     {
         percussionSelected = 1;
-        am.Perc1On(); // AUDIO
+        
+        am.StartCoroutine("PercOn1"); // AUDIO
 
         cb1.FavPerc();
         cb2.FavPerc();
@@ -224,7 +225,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected2()       // Función que determina que se ha seleccionado la percusión 2.
     {
         percussionSelected = 2;
-        am.Perc2On(); // AUDIO
+        
+        am.StartCoroutine("PercOn2"); // AUDIO
 
         cb1.FavPerc();
         cb2.FavPerc();
@@ -239,7 +241,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected3()       // Función que determina que se ha seleccionado la percusión 3.
     {
         percussionSelected = 3;
-        am.Perc3On(); // AUDIO
+        
+        am.StartCoroutine("PercOn3"); // AUDIO
 
         cb1.FavPerc();
         cb2.FavPerc();
@@ -253,7 +256,8 @@ public class GameManager : MonoBehaviour
     public void PercussionSelected4()       // Función que determina que se ha seleccionado la percusión 4.
     {
         percussionSelected = 4;
-        am.Perc4On(); // AUDIO
+        
+        am.StartCoroutine("PercOn4"); // AUDIO
 
         cb1.FavPerc();
         cb2.FavPerc();
@@ -274,7 +278,8 @@ public class GameManager : MonoBehaviour
         
         {
             style1 = true;
-            am.Style1On(); // AUDIO
+            
+            am.StartCoroutine("StyleOn1"); // AUDIO
             
             if (currentStyle != 0) 
             {
@@ -302,7 +307,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style1 = false;
-                am.Style1Off(); // AUDIO
+                
+                am.StartCoroutine("StyleOff1"); // AUDIO
 
                 if (currentStyle == 1) 
                 
@@ -339,7 +345,8 @@ public class GameManager : MonoBehaviour
         
         {
             style2 = true;
-            am.Style2On(); // AUDIO
+           
+            am.StartCoroutine("StyleOn2"); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -366,7 +373,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style2 = false;
-                am.Style2Off(); // AUDIO  
+                
+                am.StartCoroutine("StyleOff2"); // AUDIO
 
                 if (currentStyle == 2) 
                 
@@ -401,7 +409,8 @@ public class GameManager : MonoBehaviour
         
         {
             style3 = true;
-            am.Style3On(); // AUDIO
+            
+            am.StartCoroutine("StyleOn3"); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -429,7 +438,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style3 = false;
-                am.Style3Off(); // AUDIO
+                
+                am.StartCoroutine("StyleOff3"); // AUDIO
 
                 if (currentStyle == 3) 
                 
@@ -464,7 +474,8 @@ public class GameManager : MonoBehaviour
         
         {
             style4 = true;
-            am.Style4On(); // AUDIO
+            
+            am.StartCoroutine("StyleOn4"); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -491,7 +502,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style4 = false;
-                am.Style4Off(); // AUDIO
+                
+                am.StartCoroutine("StyleOff4"); // AUDIO
 
                 if (currentStyle == 4) 
                 
@@ -526,7 +538,8 @@ public class GameManager : MonoBehaviour
         
         {
             style5 = true;
-            am.Style5On(); // AUDIO
+            
+            am.StartCoroutine("StyleOn5"); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -553,7 +566,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style5 = false;
-                am.Style5Off(); // AUDIO
+                
+                am.StartCoroutine("StyleOff5"); // AUDIO
 
                 if (currentStyle == 5) 
                 
@@ -587,7 +601,8 @@ public class GameManager : MonoBehaviour
         
         {
             style6 = true;
-            am.Style6On(); // AUDIO
+            
+            am.StartCoroutine("StyleOn6"); // AUDIO
 
             if (currentStyle != 0) 
             {
@@ -614,7 +629,8 @@ public class GameManager : MonoBehaviour
             {
                 stylesSelected = stylesSelected - 1;
                 style6 = false;
-                am.Style6Off(); // AUDIO
+                
+                am.StartCoroutine("StyleOff6"); // AUDIO
 
                 if (currentStyle == 6) 
                 

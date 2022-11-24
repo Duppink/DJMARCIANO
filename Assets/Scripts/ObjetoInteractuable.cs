@@ -8,7 +8,10 @@ public class ObjetoInteractuable : MonoBehaviour
     public Textos textos;
     public Transform controlDialogos;
     //public Image cloud;
-    public ImportantSecret ImpoSecre;
+    public ImportantSecret ImpoSecre = null;
+    public ImportantSecret2 ImpoSecre2 = null;
+    public ImportantSecret3 ImpoSecre3 = null;
+    
     
     private void Start()
     {
@@ -17,11 +20,27 @@ public class ObjetoInteractuable : MonoBehaviour
 
     private void OnMouseDown()
     {
-        ImpoSecre.CheckForImportantMessage();
+        if (ImpoSecre != null)
+        {
+            ImpoSecre.CheckForImportantMessage();
+        }
+        
+
+        if (ImpoSecre2 != null)
+        {
+            ImpoSecre2.CheckForImportantMessage();
+        }
+        
+
+        if (ImpoSecre3 != null)
+        {
+            ImpoSecre3.CheckForImportantMessage();
+        }
+        
+        
         controlDialogos.position = new Vector3(1000, 365, 0);
         //cloud.enabled = !cloud.enabled;
-        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);
-        Debug.Log("caca"); 
+        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);        
     }
 
     
