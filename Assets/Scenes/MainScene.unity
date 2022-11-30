@@ -9029,7 +9029,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a56b4f585cc43fc4b84c47b1516ab2d1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -9135,7 +9135,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: dfe083ea65936df4e947c813a93e3f88, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -10311,7 +10311,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: cb18fc28783f80042919a12d6caadce5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -10672,7 +10672,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 517f781e73ec66a4ca9ce581fdcf12a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -12627,7 +12627,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 526c77fe63e20ba4b8a9578dd1c22bc2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -13662,7 +13662,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: d69c3f38d28c0504f9614f36affbb876, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -14561,7 +14561,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: c00622071625c784d8bfe5dd4eef0b95, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -17999,7 +17999,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8249285bf1d0ee24686627b0337aebfd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
