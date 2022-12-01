@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class IntroductionController : MonoBehaviour
 {
@@ -36,6 +37,24 @@ public class IntroductionController : MonoBehaviour
     public GameObject drawing25;
     public GameObject drawing26;
 
+    [Header("Intro Texts")]
+    public GameObject introText01;
+    public GameObject introText02;
+    public GameObject introText03;
+    public GameObject introText04;
+    public GameObject introText05;
+    public GameObject introText06;
+    public GameObject introText07;
+    public GameObject introText08;
+    public GameObject introText09;
+    public GameObject introText10;
+    public GameObject introText11;
+    public GameObject introText12;
+    public GameObject introText13;
+    public GameObject introText14;
+    public GameObject introText15;
+    public GameObject introText16;
+
 
     public void ChangeDrawing ()
     {
@@ -44,24 +63,29 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing01.SetActive(true);
+                introText01.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
                 drawing02.SetActive(true);
+                introText01.SetActive(false);
                 currentDrawings = 2;
                 return;
             }
             if(currentDrawings == 2)
             {
                 drawing03.SetActive(true);
+                introText02.SetActive(true);
                 currentDrawings = 3;
                 return;
             }
             if(currentDrawings == 3)
             {
                 drawing04.SetActive(true);
+                introText02.SetActive(false);
+                introText03.SetActive(true);
                 currentDrawings = 4;
                 return;
             }
@@ -71,6 +95,7 @@ public class IntroductionController : MonoBehaviour
                 drawing02.SetActive(false);
                 drawing03.SetActive(false);
                 drawing04.SetActive(false);
+                introText03.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 2;
                 return;
@@ -82,19 +107,17 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing05.SetActive(true);
+                drawing06.SetActive(true);
+                introText04.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
-                drawing06.SetActive(true);
-                currentDrawings = 2;
-                return;
-            }
-            if(currentDrawings == 2)
-            {
+                
                 drawing05.SetActive(false);
                 drawing06.SetActive(false);
+                introText04.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 3;
                 return;
@@ -107,30 +130,30 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing07.SetActive(true);
+                drawing08.SetActive(true);
+                introText05.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
-                drawing08.SetActive(true);
+                drawing09.SetActive(true);
+                introText05.SetActive(false);
+                introText06.SetActive(true);
                 currentDrawings = 2;
                 return;
             }
             if(currentDrawings == 2)
             {
-                drawing09.SetActive(true);
-                currentDrawings = 3;
-                return;
-            }
-            if(currentDrawings == 3)
-            {
                 drawing07.SetActive(false);
                 drawing08.SetActive(false);
                 drawing09.SetActive(false);
+                introText06.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 4;
                 return;
             }
+            
        }
 
        if (currentPage == 4)
@@ -138,18 +161,21 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing10.SetActive(true);
+                introText07.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
                 drawing11.SetActive(true);
+                introText07.SetActive(false);
                 currentDrawings = 2;
                 return;
             }
             if(currentDrawings == 2)
             {
                 drawing12.SetActive(true);
+                introText08.SetActive(true);
                 currentDrawings = 3;
                 return;
             }
@@ -158,6 +184,7 @@ public class IntroductionController : MonoBehaviour
                 drawing10.SetActive(false);
                 drawing11.SetActive(false);
                 drawing12.SetActive(false);
+                introText08.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 5;
                 return;
@@ -169,12 +196,14 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing13.SetActive(true);
+                introText09.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
                 drawing13.SetActive(false);
+                introText09.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 6;
                 return;
@@ -186,12 +215,14 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing14.SetActive(true);
+                introText10.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
                 drawing14.SetActive(false);
+                introText10.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 7;
                 return;
@@ -221,12 +252,15 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 3)
             {
                 drawing18.SetActive(true);
+                introText11.SetActive(true);
                 currentDrawings = 4;
                 return;
             }
             if(currentDrawings == 4)
             {
                 drawing19.SetActive(true);
+                introText11.SetActive(false);
+                introText12.SetActive(true);
                 currentDrawings = 5;
                 return;
             }
@@ -237,6 +271,7 @@ public class IntroductionController : MonoBehaviour
                 drawing17.SetActive(false);
                 drawing18.SetActive(false);
                 drawing19.SetActive(false);
+                introText12.SetActive(false);
                 currentDrawings = 0;
                 currentPage = 8;
                 return;
@@ -248,59 +283,43 @@ public class IntroductionController : MonoBehaviour
             if(currentDrawings == 0)
             {
                 drawing20.SetActive(true);
+                introText13.SetActive(true);
                 currentDrawings = 1;
                 return;
             }
             if(currentDrawings == 1)
             {
                 drawing21.SetActive(true);
+                drawing22.SetActive(true);
+                introText13.SetActive(false);
+                introText14.SetActive(true);
                 currentDrawings = 2;
                 return;
             }
             if(currentDrawings == 2)
             {
-                drawing22.SetActive(true);
+                drawing23.SetActive(true);
+                drawing24.SetActive(true);
+                introText14.SetActive(false);
+                introText15.SetActive(true);
                 currentDrawings = 3;
                 return;
             }
             if(currentDrawings == 3)
             {
-                drawing23.SetActive(true);
+                drawing25.SetActive(true);
+                drawing26.SetActive(true);
+                introText15.SetActive(false);
+                introText16.SetActive(true);
                 currentDrawings = 4;
                 return;
             }
             if(currentDrawings == 4)
             {
-                drawing24.SetActive(true);
-                currentDrawings = 5;
-                return;
-            }
-            if(currentDrawings == 5)
-            {
-                drawing25.SetActive(true);
-                currentDrawings = 6;
-                return;
-            }
-            if(currentDrawings == 6)
-            {
-                drawing26.SetActive(true);
-                currentDrawings = 7;
-                return;
-            }
-            if(currentDrawings == 7)
-            {
                 gsm.GoToBriefing();
-                /*drawing20.SetActive(false);
-                drawing21.SetActive(false);
-                drawing22.SetActive(false);
-                drawing23.SetActive(false);
-                drawing24.SetActive(false);
-                drawing25.SetActive(false);
-                drawing26.SetActive(false);
-                currentDrawings = 0;
-                currentPage = 8;*/
                 return;
             }
+            
        }
     }
 }
