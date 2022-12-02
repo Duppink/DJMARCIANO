@@ -200,6 +200,50 @@ public class GameManager : MonoBehaviour
             Mision3_UFO = true;
         }
 
+        /////// secretos que se descubren al tiro si se descubrió otro
+
+        if (Mision1_Meteoro == true)
+        {
+            Sport_Friend_ClassPresident = true;
+            ClassPresident_Friend_Sport = true; 
+        }
+
+        if (PopularGirl_Friend_ClassPresident == true)
+        {
+            ClassPresident_Friend_PopularGirl = true;
+        }  
+
+        if (ParkourBoy_Friend_ArtChic == true)
+        {
+            ArtChic_Friend_ParkourBoy = true;
+        }
+
+        if (PopularGirl_Love_ArtChic == true)
+        {
+            ArtChic_Love_PopularGirl = true;
+        } 
+
+        if (ArtChic_Friend_ParkourBoy == true)
+        {
+            ParkourBoy_Friend_ArtChic = true;
+        }
+
+        if (ArtChic_Love_PopularGirl == true)
+        {
+            PopularGirl_Love_ArtChic = true;
+        }
+
+        if (ClassPresident_Friend_PopularGirl == true)
+        {
+            PopularGirl_Friend_ClassPresident = true;
+        }
+
+        if (Mision2_AgujeroNegro == true)
+        {
+            Sport_Love_BandMember = true;
+            BandMember_Love_Sport = true;
+        }
+
 
     }
 

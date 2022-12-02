@@ -373,7 +373,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 18419600}
-  seconds: 70
+  seconds: 142
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &21007898
@@ -496,6 +496,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 24005693}
+  - component: {fileID: 24005698}
   - component: {fileID: 24005697}
   - component: {fileID: 24005696}
   - component: {fileID: 24005695}
@@ -596,10 +597,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Me pregunto si le habr\xE1 gustado "
-    - "el globo que le regal\xE9."
+    - "BandMember (Amistad con Popular Girl):\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 24005698}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &24005697
@@ -610,6 +610,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 24005692}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &24005698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24005692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1325877906}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 9
 --- !u!1 &32472449
 GameObject:
   m_ObjectHideFlags: 0
@@ -979,7 +996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 80559641}
-  seconds: 70
+  seconds: 142
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &117516811
@@ -1011,7 +1028,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 630105173}
-  m_RootOrder: 18
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1127,9 +1144,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - En el centro hay caleta de spots que quiero visitar.
+    - "En Los H\xE9roes est\xE1 lleno de muros y parques para hacer parkour."
+    - "No he practicado desde que llegu\xE9 a Chile. He estado muy ocupado.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1017164916}
+  ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &117789379
@@ -1392,7 +1411,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "Casi no vine al evento del curso.\r"
+    - "Iba a tener pr\xE1ctica con la banda pero los muy pavos se quedaron raja.\r"
+    - "La cago s\xED, el Marci es seco tocando."
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -1514,10 +1535,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - ctm
+    - "Seguramente el Benja me mando el globo.\r"
+    - "Que es we\xF3n, se est\xE1 buscando un wate.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 229372469}
-  ImpoSecre2: {fileID: 1317150930}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &163107070
 MeshFilter:
@@ -1731,6 +1753,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 204740760}
+  - component: {fileID: 204740761}
   - component: {fileID: 204740759}
   - component: {fileID: 204740758}
   - component: {fileID: 204740757}
@@ -1811,9 +1834,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
+    - "Creo que le debe uno a un loco del taller de artes.\r"
+    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+      ganas de salir.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 204740761}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &204740759
@@ -1844,6 +1870,23 @@ RectTransform:
   m_AnchoredPosition: {x: 1927, y: 752}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &204740761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 204740755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1485499630}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 15
 --- !u!1 &209015765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1955,60 +1998,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &215962572
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 215962574}
-  - component: {fileID: 215962573}
-  m_Layer: 5
-  m_Name: Image G_is2_Class President
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &215962573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215962572}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1750288912}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 14
---- !u!224 &215962574
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 215962572}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &229372462
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,13 +2007,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 229372463}
-  - component: {fileID: 229372469}
   - component: {fileID: 229372468}
   - component: {fileID: 229372466}
   - component: {fileID: 229372464}
   - component: {fileID: 229372467}
   m_Layer: 5
-  m_Name: Image B_is1_Sport
+  m_Name: Image B_Sport
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2044,7 +2032,7 @@ RectTransform:
   m_Children:
   - {fileID: 712066117}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2154,77 +2142,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &229372469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 229372462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 229372464}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 3
---- !u!1 &234939811
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 234939813}
-  - component: {fileID: 234939812}
-  m_Layer: 5
-  m_Name: Image A_is2_Parkour Boy
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &234939812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234939811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1017164913}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 2
---- !u!224 &234939813
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234939811}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &239261641
 GameObject:
   m_ObjectHideFlags: 0
@@ -2437,11 +2354,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c29e761c67dddd448b82a06c3915078c, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 712cb2e4a36974947b87506f23d44534, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2565,11 +2482,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ccb22993a8845b2428c1cfbab6606b02, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 8566cda9ec54a8449a4d2bf1dd5678c1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -2760,10 +2677,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - perkin
+    - "Casi no vine al evento del curso.\r"
+    - "Iba a tener pr\xE1ctica con la banda pero los muy pavos se quedaron raja.\r"
+    - "La cago s\xED, el Marci es seco tocando."
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1325877911}
-  ImpoSecre2: {fileID: 565725897}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &277184435
 MeshFilter:
@@ -2893,6 +2812,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 287273363}
+  - component: {fileID: 287273368}
   - component: {fileID: 287273367}
   - component: {fileID: 287273366}
   - component: {fileID: 287273365}
@@ -2993,11 +2913,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Puta que es tierna la Sofi.\r"
+    - "Siempre ah\xED dibujando, perdida en sus we\xE1s. \r"
+    - "Ser\xEDa lindo ir a la playa juntas en las vacaciones.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 287273368}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &287273367
 MeshFilter:
@@ -3007,6 +2928,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 287273362}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &287273368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287273362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 8
 --- !u!1 &291030138
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +2954,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 291030139}
+  - component: {fileID: 291030144}
   - component: {fileID: 291030143}
   - component: {fileID: 291030142}
   - component: {fileID: 291030141}
@@ -3116,10 +3055,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
+    - "Conoce de muchas cosas para ser que anda corriendo todo el d\xEDa, incluso
+      de buena comida."
+    - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
+      comemos juntos."
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 291030144}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &291030143
@@ -3130,6 +3072,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 291030138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &291030144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 291030138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 675064099}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 6
 --- !u!1 &321167629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3162,7 +3121,7 @@ RectTransform:
   - {fileID: 1975690106}
   - {fileID: 80559640}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 21
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -3313,6 +3272,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 336656874}
+  - component: {fileID: 336656879}
   - component: {fileID: 336656878}
   - component: {fileID: 336656877}
   - component: {fileID: 336656876}
@@ -3413,11 +3373,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - mueve el ombligo
-    - mueve oh oh oh
+    - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
+    - "Conoce de muchas cosas para ser que anda corriendo todo el d\xEDa, incluso
+      de buena comida."
+    - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
+      comemos juntos."
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 675064104}
-  ImpoSecre2: {fileID: 764579908}
+  ImpoSecre: {fileID: 336656879}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &336656878
 MeshFilter:
@@ -3427,6 +3390,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 336656873}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &336656879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 336656873}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 675064099}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 6
 --- !u!1 &349298975
 GameObject:
   m_ObjectHideFlags: 0
@@ -3805,6 +3785,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 392724379}
+  - component: {fileID: 392724384}
   - component: {fileID: 392724383}
   - component: {fileID: 392724382}
   - component: {fileID: 392724381}
@@ -3905,10 +3886,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Tengo ganas de ir a la playa y conocer.\r"
+    - "La Sofi me dijo que de donde ella viene es precioso, lleno de vegetaci\xF3n
+      adem\xE1s.\r"
+    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle a la Ana
+      despu\xE9s de lo que paso\u2026\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 392724384}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &392724383
@@ -3919,6 +3903,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 392724378}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &392724384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392724378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 1
 --- !u!1 &421752273
 GameObject:
   m_ObjectHideFlags: 0
@@ -4062,10 +4063,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 427923815}
+  - component: {fileID: 427923821}
   - component: {fileID: 427923819}
   - component: {fileID: 427923818}
   - component: {fileID: 427923817}
   - component: {fileID: 427923816}
+  - component: {fileID: 427923820}
   m_Layer: 5
   m_Name: Cube 2B Sport
   m_TagString: Untagged
@@ -4162,11 +4165,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "te extra\xF1o"
-    - si no te veo pasar
+    - "Puta el Antonio\u2026\r"
+    - "Uno le manda weas rom\xE1nticas y ni se inmuta."
+    - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
+      amo pero lo odio.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 229372469}
-  ImpoSecre2: {fileID: 1317150930}
+  ImpoSecre: {fileID: 427923821}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &427923819
 MeshFilter:
@@ -4176,6 +4181,40 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 427923814}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &427923820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427923814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 1
+--- !u!114 &427923821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 427923814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 18
 --- !u!1 &431444970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4514,7 +4553,7 @@ RectTransform:
   - {fileID: 1269384853}
   - {fileID: 1454205931}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 22
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -4679,6 +4718,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 514332047}
+  - component: {fileID: 514332048}
   - component: {fileID: 514332046}
   - component: {fileID: 514332045}
   - component: {fileID: 514332044}
@@ -4759,10 +4799,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - aweonao
+    - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
+    - "Creo que le debe uno a un loco del taller de artes.\r"
+    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+      ganas de salir.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1485499635}
-  ImpoSecre2: {fileID: 1495562345}
+  ImpoSecre: {fileID: 514332048}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &514332046
 MeshFilter:
@@ -4792,6 +4835,23 @@ RectTransform:
   m_AnchoredPosition: {x: 1927, y: 752}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &514332048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 514332042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1485499630}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 15
 --- !u!1 &542531041
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,7 +5036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 544365816}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &559181522
@@ -5021,11 +5081,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 329bef307eb5251458ed01a92ef64390, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0736fcf41190636458f439ed62827497, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -5107,60 +5167,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!1 &565725896
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 565725898}
-  - component: {fileID: 565725897}
-  m_Layer: 5
-  m_Name: Image E_is2_Band Member
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &565725897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565725896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1325877906}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 10
---- !u!224 &565725898
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 565725896}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &566843439
 GameObject:
   m_ObjectHideFlags: 0
@@ -5171,6 +5177,7 @@ GameObject:
   m_Component:
   - component: {fileID: 566843440}
   - component: {fileID: 566843444}
+  - component: {fileID: 566843445}
   - component: {fileID: 566843443}
   - component: {fileID: 566843442}
   - component: {fileID: 566843441}
@@ -5270,10 +5277,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - gil
+    - "Menos mal vino este we\xF3n. \t\r"
+    - "El Benja alegra cualquier ambiente y necesitaba un descanso.\r"
+    - "Como presidente de curso tiene que estar en hartas asambleas pajeras.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1405244181}
-  ImpoSecre2: {fileID: 1529215449}
+  ImpoSecre: {fileID: 566843445}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &566843444
 MeshFilter:
@@ -5283,6 +5292,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 566843439}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &566843445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 566843439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 7
 --- !u!1 &567454520
 GameObject:
   m_ObjectHideFlags: 0
@@ -5431,7 +5457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 567454522}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &574484684
@@ -5678,7 +5704,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "Seguramente el Benja me mando el globo.\r"
+    - "Que es we\xF3n, se est\xE1 buscando un wate.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -5786,21 +5813,13 @@ RectTransform:
   - {fileID: 1628390330}
   - {fileID: 433666744}
   - {fileID: 1017164910}
-  - {fileID: 234939813}
   - {fileID: 229372463}
-  - {fileID: 1317150931}
   - {fileID: 675064098}
-  - {fileID: 764579909}
   - {fileID: 1405244175}
-  - {fileID: 1529215450}
   - {fileID: 1325877905}
-  - {fileID: 565725898}
   - {fileID: 1061935567}
-  - {fileID: 1614837352}
   - {fileID: 1750288911}
-  - {fileID: 215962574}
   - {fileID: 1485499629}
-  - {fileID: 1495562344}
   - {fileID: 117516812}
   - {fileID: 648790700}
   - {fileID: 1370064390}
@@ -5824,6 +5843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 641034028}
+  - component: {fileID: 641034033}
   - component: {fileID: 641034032}
   - component: {fileID: 641034031}
   - component: {fileID: 641034030}
@@ -5924,12 +5944,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "\xBFPor qu\xE9 alguien me mandar\xEDa a m\xED"
-    - un globo Saturno?
-    - "Creo que pronto me ir\xE9 a casa."
+    - "Stoner (Amistad con Esoteric):\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 641034033}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &641034032
 MeshFilter:
@@ -5939,6 +5957,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 641034027}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &641034033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641034027}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 675064099}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 5
 --- !u!1 &648790699
 GameObject:
   m_ObjectHideFlags: 0
@@ -5972,7 +6007,7 @@ RectTransform:
   - {fileID: 891323881}
   - {fileID: 1712795013}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 19
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -6088,8 +6123,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Weon coqueto.\r"
+    - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
+    - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
+      haciendo el loco para ver como reacciona. "
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -6213,13 +6250,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 675064098}
-  - component: {fileID: 675064104}
   - component: {fileID: 675064103}
   - component: {fileID: 675064101}
   - component: {fileID: 675064099}
   - component: {fileID: 675064102}
   m_Layer: 5
-  m_Name: Image C_is1_Stoner
+  m_Name: Image C_Stoner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6239,7 +6275,7 @@ RectTransform:
   m_Children:
   - {fileID: 1561996249}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -6349,23 +6385,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &675064104
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675064097}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 675064099}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 5
 --- !u!1 &681423599
 GameObject:
   m_ObjectHideFlags: 0
@@ -6649,7 +6668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 686291596}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &688916163
@@ -6761,10 +6780,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - puta la wea
+    - En el centro hay caleta de spots que quiero visitar.
+    - "En Los H\xE9roes est\xE1 lleno de muros y parques para hacer parkour."
+    - "No he practicado desde que llegu\xE9 a Chile. He estado muy ocupado.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1017164916}
-  ImpoSecre2: {fileID: 234939812}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &688916168
 MeshFilter:
@@ -7327,7 +7348,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 630105173}
-  m_RootOrder: 23
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7565,60 +7586,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 764271385}
   m_CullTransparentMesh: 1
---- !u!1 &764579907
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 764579909}
-  - component: {fileID: 764579908}
-  m_Layer: 5
-  m_Name: Image C_is2_Stoner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &764579908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764579907}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 675064099}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 6
---- !u!224 &764579909
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 764579907}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &774024741
 GameObject:
   m_ObjectHideFlags: 0
@@ -7728,10 +7695,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "No s\xE9 por qu\xE9 no me quiso decir"
-    - "c\xF3mo se hizo esa herida en la rodilla."
-    - 'Verdad que tengo que darte un guate a este otro gil, '
-    - "es obvio que \xE9l me mand\xF3 el globo Meteorito JAJAJA"
+    - 'Sport (Banalidad): '
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -7786,11 +7750,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a1d0fc93281fb7d48a3c754b47801680, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 643b88256ad6ae246b3c1eb52e238cbf, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7981,11 +7945,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - frutillita a comer
-    - mermelada con tostada
+    - "Estoy ansioso weon.\r"
+    - "Esta semana es el concierto del Juan25, va a estar pal pico.\r"
+    - "Ese dia no estoy ni ah\xED con las weas de las asambleas.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1750288917}
-  ImpoSecre2: {fileID: 215962573}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &800008646
 MeshFilter:
@@ -8428,9 +8393,9 @@ MonoBehaviour:
   Mision2_AgujeroNegro: 0
   Mision3_UFO: 0
   tiempo: {fileID: 741388487}
-  timeSong: 90
-  timeLeftToStage2: 80
-  timeLeftToStage3: 70
+  timeSong: 242
+  timeLeftToStage2: 210
+  timeLeftToStage3: 142
   stage: 1
 --- !u!4 &834203630
 Transform:
@@ -8801,6 +8766,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 899343541}
+  - component: {fileID: 899343546}
   - component: {fileID: 899343545}
   - component: {fileID: 899343544}
   - component: {fileID: 899343543}
@@ -8901,11 +8867,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - chascona date una vuelta
-    - chascona salta en un pie
+    - "Tengo ganas de ir a la playa donde mis viejos.\r"
+    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo.\r"
+    - "Tengo que agendarlo para hacer calzar mis tiempos. \r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1061935573}
-  ImpoSecre2: {fileID: 1614837351}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 899343546}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &899343545
 MeshFilter:
@@ -8915,6 +8882,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 899343540}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &899343546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 899343540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 11
 --- !u!1 &933910512
 GameObject:
   m_ObjectHideFlags: 0
@@ -9029,7 +9013,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a56b4f585cc43fc4b84c47b1516ab2d1, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -9135,7 +9119,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: dfe083ea65936df4e947c813a93e3f88, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -9627,6 +9611,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 993104297}
+  - component: {fileID: 993104302}
   - component: {fileID: 993104301}
   - component: {fileID: 993104300}
   - component: {fileID: 993104299}
@@ -9727,10 +9712,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "weon la we\xE1"
+    - "\xA1Wuajajajajajs!\r"
+    - "La cara de L\xF3pez cuando recibi\xF3 el globo meteorito que encargu\xE9 fue
+      pal pico."
+    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s. "
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1750288917}
-  ImpoSecre2: {fileID: 215962573}
+  ImpoSecre: {fileID: 993104302}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &993104301
 MeshFilter:
@@ -9740,6 +9728,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993104296}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &993104302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 993104296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1750288912}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 1
+  identificadorMensaje: 17
 --- !u!1 &1006897276
 GameObject:
   m_ObjectHideFlags: 0
@@ -9749,6 +9754,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1006897277}
+  - component: {fileID: 1006897282}
   - component: {fileID: 1006897281}
   - component: {fileID: 1006897280}
   - component: {fileID: 1006897279}
@@ -9849,11 +9855,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - te dice ven ven ven
-    - hace bam bam bam
+    - "Tengo ganas de ir a la playa y conocer.\r"
+    - "La Sofi me dijo que de donde ella viene es precioso, lleno de vegetaci\xF3n
+      adem\xE1s.\r"
+    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle a la Ana
+      despu\xE9s de lo que paso\u2026\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1017164916}
-  ImpoSecre2: {fileID: 234939812}
+  ImpoSecre: {fileID: 1006897282}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1006897281
 MeshFilter:
@@ -9863,6 +9872,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006897276}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1006897282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1006897276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 1
 --- !u!1 &1008176722
 GameObject:
   m_ObjectHideFlags: 0
@@ -9909,13 +9935,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1017164910}
-  - component: {fileID: 1017164916}
   - component: {fileID: 1017164915}
   - component: {fileID: 1017164912}
   - component: {fileID: 1017164913}
   - component: {fileID: 1017164914}
   m_Layer: 5
-  m_Name: Image A_is1_Parkour Boy
+  m_Name: Image A_Parkour Boy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10045,23 +10070,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1017164916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1017164909}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1017164913}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 1
 --- !u!1 &1039557658
 GameObject:
   m_ObjectHideFlags: 0
@@ -10311,7 +10319,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: cb18fc28783f80042919a12d6caadce5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -10327,13 +10335,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061935567}
-  - component: {fileID: 1061935573}
   - component: {fileID: 1061935572}
   - component: {fileID: 1061935570}
   - component: {fileID: 1061935568}
   - component: {fileID: 1061935571}
   m_Layer: 5
-  m_Name: Image F_is1_Art Chic
+  m_Name: Image F_Art Chic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10353,7 +10360,7 @@ RectTransform:
   m_Children:
   - {fileID: 808042156}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 12
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -10463,23 +10470,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1061935573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1061935566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1061935568}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 11
 --- !u!1 &1071016010
 GameObject:
   m_ObjectHideFlags: 0
@@ -10672,7 +10662,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 517f781e73ec66a4ca9ce581fdcf12a7, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -10872,8 +10862,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 14
-  m_fontSizeBase: 14
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -10951,6 +10941,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1132426422}
+  - component: {fileID: 1132426427}
   - component: {fileID: 1132426426}
   - component: {fileID: 1132426425}
   - component: {fileID: 1132426424}
@@ -11051,13 +11042,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - No puedo creerlo ...
-    - "Mientras hac\xEDa parkour"
-    - "Justo vi en un balc\xF3n a la cabra que me gusta"
-    - "\xA1Bes\xE1ndose con una chica!"
+    - 'Parkour (Interes romantico PopularGirl):'
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 1132426427}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1132426426
 MeshFilter:
@@ -11067,6 +11055,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1132426421}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1132426427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132426421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 2
 --- !u!1 &1134505527
 GameObject:
   m_ObjectHideFlags: 0
@@ -11176,11 +11181,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - choco choco lala
-    - choco choco tete
+    - "Ayer me le\xED el tarot, durante la luna llena para que sea m\xE1s inmersivo.\r"
+    - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
+      llegar a mi vida.\r"
+    - "Siento esa presencia aqu\xED\u2026\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1485499635}
-  ImpoSecre2: {fileID: 1495562345}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1134505532
 MeshFilter:
@@ -11299,11 +11306,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "navidad navidad santa me cag\xF3"
-    - "no me trajo niun regalo el viejo maric\xF3n"
+    - "Weon coqueto.\r"
+    - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
+    - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
+      haciendo el loco para ver como reacciona. "
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1325877911}
-  ImpoSecre2: {fileID: 565725897}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1153905710
 MeshFilter:
@@ -11424,6 +11433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1203977330}
+  - component: {fileID: 1203977335}
   - component: {fileID: 1203977334}
   - component: {fileID: 1203977333}
   - component: {fileID: 1203977332}
@@ -11524,9 +11534,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "Menos mal vino este we\xF3n. \t\r"
+    - "El Benja alegra cualquier ambiente y necesitaba un descanso.\r"
+    - "Como presidente de curso tiene que estar en hartas asambleas pajeras.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 566843445}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1203977334
@@ -11537,6 +11549,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203977329}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1203977335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203977329}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 2
+  identificadorMensaje: 7
 --- !u!1 &1242815180
 GameObject:
   m_ObjectHideFlags: 0
@@ -11793,8 +11822,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Ayer me le\xED el tarot, durante la luna llena para que sea m\xE1s inmersivo.\r"
+    - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
+      llegar a mi vida.\r"
+    - "Siento esa presencia aqu\xED\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -12135,10 +12166,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - culiao
+    - "Estoy cagao de hambre.\r"
+    - "Hoy adem\xE1s se me hab\xEDa quedado el almuerzo en la casa.\r"
+    - "Pura mala cuea, y en el curso nadie trajo algo vegetariano para pechar.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 675064104}
-  ImpoSecre2: {fileID: 764579908}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1298283624
 MeshFilter:
@@ -12148,60 +12181,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298283619}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1317150929
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1317150931}
-  - component: {fileID: 1317150930}
-  m_Layer: 5
-  m_Name: Image B_is2_Sport
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1317150930
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317150929}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 229372464}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 4
---- !u!224 &1317150931
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1317150929}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1325877904
 GameObject:
   m_ObjectHideFlags: 0
@@ -12211,13 +12190,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1325877905}
-  - component: {fileID: 1325877911}
   - component: {fileID: 1325877910}
   - component: {fileID: 1325877908}
   - component: {fileID: 1325877906}
   - component: {fileID: 1325877909}
   m_Layer: 5
-  m_Name: Image E_is1_Band Member
+  m_Name: Image E_Band Member
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12237,7 +12215,7 @@ RectTransform:
   m_Children:
   - {fileID: 1039557659}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 10
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12347,23 +12325,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1325877911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1325877904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1325877906}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 9
 --- !u!1 &1363415661
 GameObject:
   m_ObjectHideFlags: 0
@@ -12473,10 +12434,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - sacowea
+    - "Hoy en artes se me acab\xF3 el oleo amarillo. \r"
+    - "Tuve que pedir prestado y lo us\xE9 casi todo."
+    - "Le debo a esa alma caritativa un repuesto, pero la pintura de las frutas me
+      qued\xF3 bac\xE1n seg\xFAn la profe. "
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1061935573}
-  ImpoSecre2: {fileID: 1614837351}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1363415666
 MeshFilter:
@@ -12521,7 +12485,7 @@ RectTransform:
   - {fileID: 1518063803}
   - {fileID: 544365815}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 20
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -12627,7 +12591,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 526c77fe63e20ba4b8a9578dd1c22bc2, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -12793,13 +12757,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1405244175}
-  - component: {fileID: 1405244181}
   - component: {fileID: 1405244180}
   - component: {fileID: 1405244178}
   - component: {fileID: 1405244176}
   - component: {fileID: 1405244179}
   m_Layer: 5
-  m_Name: Image D_is1_Popular Girl
+  m_Name: Image D_Popular Girl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12819,7 +12782,7 @@ RectTransform:
   m_Children:
   - {fileID: 849770814}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 8
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -12929,23 +12892,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1405244181
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1405244174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1405244176}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 7
 --- !u!1 &1406589600
 GameObject:
   m_ObjectHideFlags: 0
@@ -13157,8 +13103,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Estoy ansioso weon.\r"
+    - "Esta semana es el concierto del Juan25, va a estar pal pico.\r"
+    - "Ese dia no estoy ni ah\xED con las weas de las asambleas.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -13301,11 +13248,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 8bf35014320bb2f4ab83bd98734ec2e2, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3adae14e8e3441646a1632a0b5c2194f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -13434,6 +13381,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1471302299}
+  - component: {fileID: 1471302304}
   - component: {fileID: 1471302303}
   - component: {fileID: 1471302302}
   - component: {fileID: 1471302301}
@@ -13534,11 +13482,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - JAJAJA
-    - "la cara de L\xF3pez cuando recibi\xF3 mi globo."
+    - 'ClassPresident (Amistad con Popular Girl):'
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 1471302304}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1471302303
 MeshFilter:
@@ -13548,6 +13495,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471302298}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1471302304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471302298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1750288912}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 13
 --- !u!1 &1473344352
 GameObject:
   m_ObjectHideFlags: 0
@@ -13662,7 +13626,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: d69c3f38d28c0504f9614f36affbb876, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -13711,11 +13675,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 7e42a9b8ecbea0647958729b91d4db52, type: 3}
+  m_audioClip: {fileID: 8300000, guid: e2ec80d9635bee549b8dc20a5c3d743e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -13806,13 +13770,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1485499629}
-  - component: {fileID: 1485499635}
   - component: {fileID: 1485499634}
   - component: {fileID: 1485499632}
   - component: {fileID: 1485499630}
   - component: {fileID: 1485499633}
   m_Layer: 5
-  m_Name: Image H_is1_Esoteric
+  m_Name: Image H_Esoteric
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -13832,7 +13795,7 @@ RectTransform:
   m_Children:
   - {fileID: 335117173}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 16
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -13942,77 +13905,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1485499635
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1485499628}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1485499630}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 15
---- !u!1 &1495562343
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1495562344}
-  - component: {fileID: 1495562345}
-  m_Layer: 5
-  m_Name: Image H_is2_Esoteric
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1495562344
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495562343}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1495562345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1495562343}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1485499630}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 16
 --- !u!1 &1501508857
 GameObject:
   m_ObjectHideFlags: 0
@@ -14155,7 +14047,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "Estoy cagao de hambre.\r"
+    - "Hoy adem\xE1s se me hab\xEDa quedado el almuerzo en la casa.\r"
+    - "Pura mala cuea, y en el curso nadie trajo algo vegetariano para pechar.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -14316,7 +14210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1518063804}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &1520909500
@@ -14361,11 +14255,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: df3985b8a574b4644b14f5baeee87828, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 3e50283e0002cc8449e18c7ea4406f00, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -14561,67 +14455,13 @@ Animator:
   m_Controller: {fileID: 9100000, guid: c00622071625c784d8bfe5dd4eef0b95, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!1 &1529215448
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1529215450}
-  - component: {fileID: 1529215449}
-  m_Layer: 5
-  m_Name: Image D_is2_Popular Girl
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1529215449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529215448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1405244176}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 8
---- !u!224 &1529215450
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1529215448}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1561996248
 GameObject:
   m_ObjectHideFlags: 0
@@ -15086,60 +14926,6 @@ MonoBehaviour:
   rightOn: {fileID: 21300000, guid: 2a06cf0b6ebef9e499f2ee7d452701cc, type: 3}
   neutro: {fileID: 21300000, guid: 3bee635271bfe6f4e986e9f8fd6198b5, type: 3}
   buttonDisabled: {fileID: 21300000, guid: f7c30ccb50ae43d47a091e56a102b0d7, type: 3}
---- !u!1 &1614837350
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1614837352}
-  - component: {fileID: 1614837351}
-  m_Layer: 5
-  m_Name: Image F_is2_Art Chic
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1614837351
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614837350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1061935568}
-  gm: {fileID: 834203629}
-  SP: 2
-  Stage: 2
-  identificadorMensaje: 12
---- !u!224 &1614837352
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614837350}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 32.499996}
-  m_LocalScale: {x: 72, y: 72, z: 72}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 630105173}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -342.13998, y: -3.7999976}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1628390329
 GameObject:
   m_ObjectHideFlags: 0
@@ -15531,7 +15317,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1634416324}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &1654992330
@@ -15576,11 +15362,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: e0c064148aeb5a74e8a8683fdcb0842d, type: 3}
+  m_audioClip: {fileID: 8300000, guid: bf0fcf3a437497348a87694bbe795845, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -15748,6 +15534,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1670776666}
+  - component: {fileID: 1670776671}
   - component: {fileID: 1670776670}
   - component: {fileID: 1670776669}
   - component: {fileID: 1670776668}
@@ -15848,13 +15635,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "\xBFPor qu\xE9 lo hice?"
-    - "No s\xE9 si querr\xE1 "
-    - "seguir siendo mi amiga despu\xE9s de esto ..."
+    - "PopularGirl (Misi\xF3n 03):\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
-  ImpoSecre3: {fileID: 0}
+  ImpoSecre3: {fileID: 1670776671}
 --- !u!33 &1670776670
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -15863,6 +15648,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1670776665}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1670776671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1670776665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7101c0396a455ce49b51f940eb953368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 19
 --- !u!1 &1690557416
 GameObject:
   m_ObjectHideFlags: 0
@@ -16346,11 +16148,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: aa232154742228b4bb85b71ab6fc5c8e, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 725945a19df7ebc47a9106c6c5e06656, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -16891,13 +16693,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1750288911}
-  - component: {fileID: 1750288917}
   - component: {fileID: 1750288916}
   - component: {fileID: 1750288914}
   - component: {fileID: 1750288912}
   - component: {fileID: 1750288915}
   m_Layer: 5
-  m_Name: Image G_is1_Class President
+  m_Name: Image G_Class President
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16917,7 +16718,7 @@ RectTransform:
   m_Children:
   - {fileID: 806769961}
   m_Father: {fileID: 630105173}
-  m_RootOrder: 14
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -17027,23 +16828,6 @@ MonoBehaviour:
   sp1: {fileID: 21300000, guid: 5dbaeff1e99fbe3408f38ca03cbef6f1, type: 3}
   sp2: {fileID: 21300000, guid: af51396b96dae054b85e245aed3d467a, type: 3}
   sp3: {fileID: 21300000, guid: f2ffaa9f2caa00c4bbca43164b08cdf6, type: 3}
---- !u!114 &1750288917
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1750288910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cb: {fileID: 1750288912}
-  gm: {fileID: 834203629}
-  SP: 1
-  Stage: 1
-  identificadorMensaje: 13
 --- !u!1 &1772778332
 GameObject:
   m_ObjectHideFlags: 0
@@ -17386,11 +17170,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d511c0b89089d1d43b54b1e716f80cb6, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b183ae69a8dd6014aa214bbdcc61e1a9, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -17665,7 +17449,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "Hoy en artes se me acab\xF3 el oleo amarillo. \r"
+    - "Tuve que pedir prestado y lo us\xE9 casi todo."
+    - "Le debo a esa alma caritativa un repuesto, pero la pintura de las frutas me
+      qued\xF3 bac\xE1n seg\xFAn la profe. "
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -17687,6 +17474,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1886448351}
+  - component: {fileID: 1886448356}
   - component: {fileID: 1886448355}
   - component: {fileID: 1886448354}
   - component: {fileID: 1886448353}
@@ -17787,10 +17575,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Puta el Antonio\u2026\r"
+    - "Uno le manda weas rom\xE1nticas y ni se inmuta."
+    - "A veces creo que se cree due\xF1o del mundo con su confianza culi\xE1, lo
+      amo pero lo odio.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 1886448356}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1886448355
@@ -17801,6 +17591,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1886448350}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1886448356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1886448350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1017164913}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 1
 --- !u!1 &1894832492
 GameObject:
   m_ObjectHideFlags: 0
@@ -17999,7 +17806,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: 8249285bf1d0ee24686627b0337aebfd, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 1
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -18154,7 +17961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1914872746}
-  seconds: 80
+  seconds: 210
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &1923724229
@@ -18373,6 +18180,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1955566091}
+  - component: {fileID: 1955566096}
   - component: {fileID: 1955566095}
   - component: {fileID: 1955566094}
   - component: {fileID: 1955566093}
@@ -18473,13 +18281,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "No s\xE9 c\xF3mo decirle"
-    - "que no paro de so\xF1ar con lo que pas\xF3 ..."
-    - parece que me gusta.
+    - "ArtChic (Interes rom\xE1ntico con PopularGirl):\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
-  ImpoSecre3: {fileID: 0}
+  ImpoSecre3: {fileID: 1955566096}
 --- !u!33 &1955566095
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -18488,6 +18294,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1955566090}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1955566096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955566090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7101c0396a455ce49b51f940eb953368, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 12
 --- !u!1 &1975690105
 GameObject:
   m_ObjectHideFlags: 0
@@ -18636,7 +18459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   button: {fileID: 1975690107}
-  seconds: 70
+  seconds: 142
   gm: {fileID: 834203629}
   enabledButton: 0
 --- !u!1 &1992260227
@@ -18778,6 +18601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1993513242}
+  - component: {fileID: 1993513247}
   - component: {fileID: 1993513246}
   - component: {fileID: 1993513245}
   - component: {fileID: 1993513244}
@@ -18878,13 +18702,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Ahg, nunca m\xE1s vuelvo a participar"
-    - "en tonteras como el d\xEDa del globo."
-    - Mmmm ...
-    - "\xBFHola?"
+    - "Esoteric (Interes romantico con Stoner):\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 1993513247}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &1993513246
 MeshFilter:
@@ -18894,6 +18715,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1993513241}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1993513247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993513241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1485499630}
+  gm: {fileID: 834203629}
+  SP: 3
+  Stage: 3
+  identificadorMensaje: 16
 --- !u!1 &2019546561
 GameObject:
   m_ObjectHideFlags: 0
@@ -19070,6 +18908,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2094693328}
+  - component: {fileID: 2094693333}
   - component: {fileID: 2094693332}
   - component: {fileID: 2094693331}
   - component: {fileID: 2094693330}
@@ -19170,11 +19009,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "pin pon es un mu\xF1eco"
-    - con cara de weon
+    - "Puta que es tierna la Sofi.\r"
+    - "Siempre ah\xED dibujando, perdida en sus we\xE1s. \r"
+    - "Ser\xEDa lindo ir a la playa juntas en las vacaciones.\r"
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 1405244181}
-  ImpoSecre2: {fileID: 1529215449}
+  ImpoSecre: {fileID: 0}
+  ImpoSecre2: {fileID: 2094693333}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &2094693332
 MeshFilter:
@@ -19184,6 +19024,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094693327}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2094693333
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094693327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1405244176}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 2
+  identificadorMensaje: 8
 --- !u!1 &2101034216
 GameObject:
   m_ObjectHideFlags: 0
@@ -19193,6 +19050,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2101034217}
+  - component: {fileID: 2101034222}
   - component: {fileID: 2101034221}
   - component: {fileID: 2101034220}
   - component: {fileID: 2101034219}
@@ -19293,11 +19151,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal stage 3
-    - relacion peeeeeersonal stage 3
+    - "Tengo ganas de ir a la playa donde mis viejos.\r"
+    - "Le hab\xEDa comentado al Antonio de por all\xE1, capaz que quiera ir conmigo.\r"
+    - "Tengo que agendarlo para hacer calzar mis tiempos. \r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
-  ImpoSecre2: {fileID: 0}
+  ImpoSecre2: {fileID: 2101034222}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &2101034221
 MeshFilter:
@@ -19307,6 +19166,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101034216}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2101034222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101034216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a52477cbee32e13468538c5c48f42a1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 1061935568}
+  gm: {fileID: 834203629}
+  SP: 2
+  Stage: 3
+  identificadorMensaje: 11
 --- !u!1 &2101109839
 GameObject:
   m_ObjectHideFlags: 0
@@ -19316,6 +19192,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2101109840}
+  - component: {fileID: 2101109845}
   - component: {fileID: 2101109844}
   - component: {fileID: 2101109843}
   - component: {fileID: 2101109842}
@@ -19416,9 +19293,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - relacion personal s2
+    - "\xA1Wuajajajajajs!\r"
+    - "La cara de L\xF3pez cuando recibi\xF3 el globo meteorito que encargu\xE9 fue
+      pal pico."
+    - "\xBFMe pregunto si el we\xF3n se dio cuenta que fui yo? Dem\xE1s. "
   controlDialogos: {fileID: 1628390330}
-  ImpoSecre: {fileID: 0}
+  ImpoSecre: {fileID: 2101109845}
   ImpoSecre2: {fileID: 0}
   ImpoSecre3: {fileID: 0}
 --- !u!33 &2101109844
@@ -19429,6 +19309,23 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2101109839}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2101109845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2101109839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985c0972ee60baf44b61519d7dde7950, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cb: {fileID: 229372464}
+  gm: {fileID: 834203629}
+  SP: 1
+  Stage: 2
+  identificadorMensaje: 17
 --- !u!1 &2103456051
 GameObject:
   m_ObjectHideFlags: 0
