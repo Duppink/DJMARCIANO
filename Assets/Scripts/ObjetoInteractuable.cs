@@ -36,6 +36,8 @@ public class ObjetoInteractuable : MonoBehaviour
         {
             ImpoSecre3.CheckForImportantMessage();
         }
+
+        
         
         
         controlDialogos.position = new Vector3(1000, 365, 0);

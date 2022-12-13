@@ -3,29 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {   
     [Header("Scripts")]
-    public AudioManager am;
-    public LightsController lc;
+    public AudioManager am = null;
+    public AudioSource scratch;
+    public AudioClip scratchClip;
+    public LightsController lc = null;
 
     [Header("Characters")]
-    public CharactersBehavior cb1;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb2;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb3;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb4;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb5;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb6;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb7;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
-    public CharactersBehavior cb8;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb1 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb2 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb3 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb4 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb5 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb6 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb7 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
+    public CharactersBehavior cb8 = null;      // Referencia al script CharacterBehavior contenido por el GameObject del personaje correspondiente.
 
     [Header("Percussion Buttons")]
-    public Button[] percussion;     // Referencia a los botones de la mesa de DJ relacionados a la percusión.
+    public Button[] percussion = null;     // Referencia a los botones de la mesa de DJ relacionados a la percusión.
     [Header("Style Buttons")]
-    public Button[] style;      // Referencia a los botones de la mesa de DJ relacionados al estilo.
+    public Button[] style = null;      // Referencia a los botones de la mesa de DJ relacionados al estilo.
     [Header("Lights Buttons")]
-    public Button[] lights;     // Referencia a los botones de la mesa de DJ relacionados a las luces.
+    public Button[] lights = null;     // Referencia a los botones de la mesa de DJ relacionados a las luces.
   
     [Header("Selected Percusion")]
     public int percussionSelected = 1;      // Variable que contiene el valor de la percusión seleccionada.
@@ -49,6 +52,7 @@ public class GameManager : MonoBehaviour
         
     [Header("Relationship Secrets")]
     public int identificador;
+    public bool[] first;
     public bool ParkourBoy_Friend_ArtChic; //1
     public bool ParkourBoy_Love_PopularGirl; //2
     public bool Sport_Friend_ClassPresident; //3
@@ -72,7 +76,7 @@ public class GameManager : MonoBehaviour
     public bool Mision3_UFO; //19
 
     [Header("Time Text")]
-    public TextMeshProUGUI tiempo;
+    public TextMeshProUGUI tiempo = null;
     private int timetotext;
     
 
@@ -83,6 +87,27 @@ public class GameManager : MonoBehaviour
 
     [Header("Actual Stage")]
     public int stage = 1;
+
+    private static GameManager instance;
+
+    void Awake()
+    {
+        if(instance != null)
+        {
+            Destroy(gameObject);
+        }
+
+        else
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+
+    void Start()
+    {
+        scratch.clip = scratchClip;
+    }
 
 
     void Update()
@@ -101,103 +126,166 @@ public class GameManager : MonoBehaviour
             stage = 3;
         } 
 
+        if (timeSong <= 0)
+        {
+            SceneManager.LoadScene("Results");
+            timeSong = 242;
+        }
+
 
 
         //MENSAJE IMPORTANTE
 
-        if (identificador == 1)
+        if (identificador == 1 && first[0] == false)
         {
             ParkourBoy_Friend_ArtChic = true;
+            first[0] = true;
+            scratch.Play();
+            //EFECTO            
         }
 
-        if (identificador == 2)
+        if (identificador == 2 && first[1] == false)
         {
             ParkourBoy_Love_PopularGirl = true;
+            first[1] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 3)
+        if (identificador == 3 && first[2] == false)
         {
             Sport_Friend_ClassPresident = true;
+            first[2] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 4)
+        if (identificador == 4 && first[3] == false)
         {
             Sport_Love_BandMember = true;
+            first[3] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 5)
+        if (identificador == 5 && first[4] == false)
         {
             Stoner_Friend_Esoteric = true;
+            first[4] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 6)
+        if (identificador == 6 && first[5] == false)
         {
             Stoner_Friend_Sport = true;
+            first[5] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 7)
+        if (identificador == 7 && first[6] == false)
         {
             PopularGirl_Friend_ClassPresident = true;
+            first[6] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 8)
+        if (identificador == 8 && first[7] == false)
         {
             PopularGirl_Love_ArtChic = true;
+            first[7] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 9)
+        if (identificador == 9 && first[8] == false)
         {
             BandMember_Friend_PopularGirl = true;
+            first[8] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 10)
+        if (identificador == 10 && first[9] == false)
         {
             BandMember_Love_Sport = true;
+            first[9] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 11)
+        if (identificador == 11 && first[10] == false)
         {
             ArtChic_Friend_ParkourBoy = true;
+            first[10] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 12)
+        if (identificador == 12 && first[11] == false)
         {
             ArtChic_Love_PopularGirl = true;
+            first[11] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 13)
+        if (identificador == 13 && first[12] == false)
         {
             ClassPresident_Friend_PopularGirl = true;
+            first[12] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 14)
+        if (identificador == 14 && first[13] == false)
         {
             ClassPresident_Friend_Sport = true;
+            first[13] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 15)
+        if (identificador == 15 && first[14] == false)
         {
             Esoteric_Friend_ArtChic = true;
+            first[14] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 16)
+        if (identificador == 16 && first[15] == false)
         {
             Esoteric_Love_Stoner = true;
+            first[15] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 17)
+        if (identificador == 17 && first[16] == false)
         {
-            Mision1_Meteoro = true;
+            Mision1_Meteoro = true;      
+            first[16] = true;
+            scratch.Play();
+            //EFECTO      
         }
 
-        if (identificador == 18)
+        if (identificador == 18 && first[17] == false)
         {
             Mision2_AgujeroNegro = true;
+            first[17] = true;
+            scratch.Play();
+            //EFECTO
         }
 
-        if (identificador == 19)
+        if (identificador == 19 && first[18] == false)
         {
             Mision3_UFO = true;
+            first[18] = true;
+            scratch.Play();
+            //EFECTO
         }
 
         /////// secretos que se descubren al tiro si se descubrió otro
@@ -243,7 +331,7 @@ public class GameManager : MonoBehaviour
             Sport_Love_BandMember = true;
             BandMember_Love_Sport = true;
         }
-
+      
 
     }
 

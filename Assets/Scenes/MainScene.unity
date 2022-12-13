@@ -597,7 +597,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "BandMember (Amistad con Popular Girl):\r"
+    - "La Ana andaba con mala cara en la casa.\r"
+    - "\xBFLe habr\xE1 pasado algo a mi hermana?\r"
+    - "Espero que sea algo temporal.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 24005698}
   ImpoSecre2: {fileID: 0}
@@ -1836,7 +1838,7 @@ MonoBehaviour:
     arrayTextos:
     - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
     - "Creo que le debe uno a un loco del taller de artes.\r"
-    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+    - "Despu\xE9s vamos a ir a comer mariscos al mercado central, ya ten\xEDa muchas
       ganas de salir.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 204740761}
@@ -2080,7 +2082,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 229372462}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -2913,9 +2915,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Puta que es tierna la Sofi.\r"
-    - "Siempre ah\xED dibujando, perdida en sus we\xE1s. \r"
-    - "Ser\xEDa lindo ir a la playa juntas en las vacaciones.\r"
+    - "No me aguant\xE9\u2026\r"
+    - "\xA1Y le d\xED un beso a Sofi en su balc\xF3n!\r"
+    - Espero que no le haya incomodado.
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 287273368}
@@ -3056,8 +3058,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
-    - "Conoce de muchas cosas para ser que anda corriendo todo el d\xEDa, incluso
-      de buena comida."
+    - "Conoce de muchas cosas aunque ande corriendo todo el d\xEDa, incluso de buena
+      comida."
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
       comemos juntos."
   controlDialogos: {fileID: 1628390330}
@@ -3374,8 +3376,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Menos mal Mar conoc\xEDa un spot donde comer.\r"
-    - "Conoce de muchas cosas para ser que anda corriendo todo el d\xEDa, incluso
-      de buena comida."
+    - "Conoce de muchas cosas aunque ande corriendo todo el d\xEDa, incluso de buena
+      comida."
     - "Es la \xFAnica persona en el curso con la que no quedo debajo de la mesa cuando
       comemos juntos."
   controlDialogos: {fileID: 1628390330}
@@ -3886,11 +3888,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a la playa y conocer.\r"
-    - "La Sofi me dijo que de donde ella viene es precioso, lleno de vegetaci\xF3n
-      adem\xE1s.\r"
-    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle a la Ana
-      despu\xE9s de lo que paso\u2026\r"
+    - "Tengo ganas de ir a Valpo y conocer.\r"
+    - "La Sofi que es porte\xF1a me dijo que hay murales y estructuras bacanes."
+    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle despu\xE9s
+      de lo que pas\xF3\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 392724384}
   ImpoSecre2: {fileID: 0}
@@ -4801,7 +4802,7 @@ MonoBehaviour:
     arrayTextos:
     - "La Sofi quiere que la vaya a acompa\xF1ar a la librer\xEDa a comprar oleos.\r"
     - "Creo que le debe uno a un loco del taller de artes.\r"
-    - "Despu\xE9s vamos a ir a comer mariscos cerca de mi casa, ya ten\xEDa muchas
+    - "Despu\xE9s vamos a ir a comer mariscos al mercado central, ya ten\xEDa muchas
       ganas de salir.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 514332048}
@@ -5944,7 +5945,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Stoner (Amistad con Esoteric):\r"
+    - "Ayer quedamos con Yuet de ir a una librer\xEDa en la semana.\r"
+    - "Me tinca una que est\xE1 en la Alameda.\r"
+    - "Creo que se llamaba Biblioteca Nacional de Chile. \r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 641034033}
@@ -6123,7 +6126,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Weon coqueto.\r"
+    - Weon coqueto, igual me lo pololeo.
     - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
       haciendo el loco para ver como reacciona. "
@@ -6323,7 +6326,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 675064097}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -7695,7 +7698,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - 'Sport (Banalidad): '
+    - "Ya me cans\xE9, igual me ir\xEDa pa\u2019 la casa."
+    - "Me mov\xED caleta en el partido de hoy."
+    - "Con cuea me dio tiempo para ducharme.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -7946,8 +7951,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Estoy ansioso weon.\r"
-    - "Esta semana es el concierto del Juan25, va a estar pal pico.\r"
-    - "Ese dia no estoy ni ah\xED con las weas de las asambleas.\r"
+    - "Esta semana voy a cletear a Lo V\xE1squez."
+    - "Ese d\xEDa no estoy ni ah\xED con las weas de las asambleas.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -8332,6 +8337,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   am: {fileID: 1242815182}
+  scratch: {fileID: 963194230}
+  scratchClip: {fileID: 8300000, guid: 1f04bc954f2ab2a44ad22a4391171d20, type: 3}
   lc: {fileID: 239261642}
   cb1: {fileID: 1017164913}
   cb2: {fileID: 229372464}
@@ -8373,6 +8380,7 @@ MonoBehaviour:
   lightsValue3: 0
   lightsValue4: 0
   identificador: 0
+  first: 00000000000000000000000000000000000000
   ParkourBoy_Friend_ArtChic: 0
   ParkourBoy_Love_PopularGirl: 0
   Sport_Friend_ClassPresident: 0
@@ -9283,6 +9291,7 @@ GameObject:
   - component: {fileID: 963194227}
   - component: {fileID: 963194226}
   - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -9389,6 +9398,102 @@ MonoBehaviour:
   m_RequiresDepthTexture: 0
   m_RequiresColorTexture: 0
   m_Version: 2
+--- !u!82 &963194230
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1.1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &967469473
 GameObject:
   m_ObjectHideFlags: 0
@@ -9855,11 +9960,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Tengo ganas de ir a la playa y conocer.\r"
-    - "La Sofi me dijo que de donde ella viene es precioso, lleno de vegetaci\xF3n
-      adem\xE1s.\r"
-    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle a la Ana
-      despu\xE9s de lo que paso\u2026\r"
+    - "Tengo ganas de ir a Valpo y conocer.\r"
+    - "La Sofi que es porte\xF1a me dijo que hay murales y estructuras bacanes."
+    - "Podr\xEDamos ir juntos con la Ana, pero me da plancha preguntarle despu\xE9s
+      de lo que pas\xF3\u2026\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 1006897282}
   ImpoSecre2: {fileID: 0}
@@ -10008,7 +10112,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1017164909}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -10408,7 +10512,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061935566}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -11042,7 +11146,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - 'Parkour (Interes romantico PopularGirl):'
+    - "Puta la wea\u2026\r"
+    - "\xA1El otro d\xEDa vi a la Ana bes\xE1ndose con otra loca!"
+    - "Me hizo pico verlo, y ni cach\xE9 con qui\xE9n era\u2026"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1132426427}
@@ -11185,6 +11291,8 @@ MonoBehaviour:
     - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
       llegar a mi vida.\r"
     - "Siento esa presencia aqu\xED\u2026\r"
+    - ...
+    - "\xBFHola?"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -11306,7 +11414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Weon coqueto.\r"
+    - Weon coqueto, igual me lo pololeo.
     - "Me manda un globo as\xED y sonr\xEDe como siempre.\r"
     - "Seguro no me doy cuenta qui\xE9n me mandar\xEDa algo as\xED. Mejor me sigo
       haciendo el loco para ver como reacciona. "
@@ -11826,6 +11934,8 @@ MonoBehaviour:
     - "Una de las cartas hablaba de un extranjero fuera de lo com\xFAn que podr\xEDa
       llegar a mi vida.\r"
     - "Siento esa presencia aqu\xED\u2026\r"
+    - ...
+    - "\xBFHola?"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -12263,7 +12373,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1325877904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -12830,7 +12940,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1405244174}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -13104,8 +13214,8 @@ MonoBehaviour:
   textos:
     arrayTextos:
     - "Estoy ansioso weon.\r"
-    - "Esta semana es el concierto del Juan25, va a estar pal pico.\r"
-    - "Ese dia no estoy ni ah\xED con las weas de las asambleas.\r"
+    - "Esta semana voy a cletear a Lo V\xE1squez."
+    - "Ese d\xEDa no estoy ni ah\xED con las weas de las asambleas.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -13482,7 +13592,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - 'ClassPresident (Amistad con Popular Girl):'
+    - "Con la Ana pens\xE1bamos ir a un concierto. \r"
+    - Pronto se viene el de la Princesa Alba.
+    - Ni cagando nos la perdemos.
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1471302304}
@@ -13843,7 +13955,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1485499628}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -15635,7 +15747,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "PopularGirl (Misi\xF3n 03):\r"
+    - "Est\xE1n buenisimos los temas del Marci.\r"
+    - "Hmm.\r"
+    - "\xBFSabr\xE1 que yo le mand\xE9 el globo?\r"
+    - "Era en la buena onda, pero c\xF3mo va a cachar que fui yo.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -16766,7 +16881,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1750288910}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -18281,7 +18396,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "ArtChic (Interes rom\xE1ntico con PopularGirl):\r"
+    - "No hablamos desde ayer.\r"
+    - "Me qued\xE9 congelada despu\xE9s de que Ana me diera un beso.\r"
+    - "No es que no me gustara, solo que no s\xE9 que hacer.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 0}
@@ -18702,7 +18819,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Esoteric (Interes romantico con Stoner):\r"
+    - "Quer\xEDa salir hace rato con el Ali."
+    - "Yo quer\xEDa ir a algo m\xE1s lindo como un parque.\r"
+    - "Pero qued\xF3 en ir a una librer\xEDa en el Centro.\r"
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 1993513247}
@@ -19009,9 +19128,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textos:
     arrayTextos:
-    - "Puta que es tierna la Sofi.\r"
-    - "Siempre ah\xED dibujando, perdida en sus we\xE1s. \r"
-    - "Ser\xEDa lindo ir a la playa juntas en las vacaciones.\r"
+    - "No me aguant\xE9\u2026\r"
+    - "\xA1Y le d\xED un beso a Sofi en su balc\xF3n!\r"
+    - Espero que no le haya incomodado.
   controlDialogos: {fileID: 1628390330}
   ImpoSecre: {fileID: 0}
   ImpoSecre2: {fileID: 2094693333}
