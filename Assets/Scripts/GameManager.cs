@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {   
+    public GameObject tableMessageEffect;
     [Header("Scripts")]
     public AudioManager am = null;
     public AudioSource scratch;
@@ -132,7 +133,10 @@ public class GameManager : MonoBehaviour
             timeSong = 242;
         }
 
-
+        if (identificador == 0) 
+        {
+            tableMessageEffect.SetActive(false);
+        }
 
         //MENSAJE IMPORTANTE
 
@@ -141,7 +145,9 @@ public class GameManager : MonoBehaviour
             ParkourBoy_Friend_ArtChic = true;
             first[0] = true;
             scratch.Play();
-            //EFECTO            
+            //EFECTO
+            tableMessageEffect.SetActive(true);   
+                  
         }
 
         if (identificador == 2 && first[1] == false)
@@ -150,6 +156,7 @@ public class GameManager : MonoBehaviour
             first[1] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 3 && first[2] == false)
@@ -158,6 +165,7 @@ public class GameManager : MonoBehaviour
             first[2] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 4 && first[3] == false)
@@ -166,6 +174,7 @@ public class GameManager : MonoBehaviour
             first[3] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 5 && first[4] == false)
@@ -174,6 +183,7 @@ public class GameManager : MonoBehaviour
             first[4] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 6 && first[5] == false)
@@ -182,6 +192,7 @@ public class GameManager : MonoBehaviour
             first[5] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 7 && first[6] == false)
@@ -190,6 +201,7 @@ public class GameManager : MonoBehaviour
             first[6] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 8 && first[7] == false)
@@ -198,6 +210,7 @@ public class GameManager : MonoBehaviour
             first[7] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 9 && first[8] == false)
@@ -206,6 +219,7 @@ public class GameManager : MonoBehaviour
             first[8] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 10 && first[9] == false)
@@ -214,6 +228,7 @@ public class GameManager : MonoBehaviour
             first[9] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 11 && first[10] == false)
@@ -222,6 +237,7 @@ public class GameManager : MonoBehaviour
             first[10] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 12 && first[11] == false)
@@ -230,6 +246,7 @@ public class GameManager : MonoBehaviour
             first[11] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 13 && first[12] == false)
@@ -238,6 +255,7 @@ public class GameManager : MonoBehaviour
             first[12] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 14 && first[13] == false)
@@ -246,6 +264,7 @@ public class GameManager : MonoBehaviour
             first[13] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 15 && first[14] == false)
@@ -254,6 +273,7 @@ public class GameManager : MonoBehaviour
             first[14] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 16 && first[15] == false)
@@ -262,6 +282,7 @@ public class GameManager : MonoBehaviour
             first[15] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 17 && first[16] == false)
@@ -269,8 +290,10 @@ public class GameManager : MonoBehaviour
             Mision1_Meteoro = true;      
             first[16] = true;
             scratch.Play();
-            //EFECTO      
+            //EFECTO
+            tableMessageEffect.SetActive(true);          
         }
+        
 
         if (identificador == 18 && first[17] == false)
         {
@@ -278,6 +301,7 @@ public class GameManager : MonoBehaviour
             first[17] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         if (identificador == 19 && first[18] == false)
@@ -286,6 +310,7 @@ public class GameManager : MonoBehaviour
             first[18] = true;
             scratch.Play();
             //EFECTO
+            tableMessageEffect.SetActive(true);   
         }
 
         /////// secretos que se descubren al tiro si se descubrió otro

@@ -11,6 +11,9 @@ public class ObjetoInteractuable : MonoBehaviour
     public ImportantSecret ImpoSecre = null;
     public ImportantSecret2 ImpoSecre2 = null;
     public ImportantSecret3 ImpoSecre3 = null;
+    public bool IsClicked; 
+    public GameObject ClickedEffect;
+    public NotImportantSecret nis = null;
     
     
     private void Start()
@@ -20,6 +23,12 @@ public class ObjetoInteractuable : MonoBehaviour
 
     private void OnMouseDown()
     {
+        
+        if (nis != null)
+        {
+            nis.CheckForNotImportantMessage();
+        }
+        
         if (ImpoSecre != null)
         {
             ImpoSecre.CheckForImportantMessage();
@@ -29,20 +38,36 @@ public class ObjetoInteractuable : MonoBehaviour
         if (ImpoSecre2 != null)
         {
             ImpoSecre2.CheckForImportantMessage();
-        }
-        
+        }   
 
         if (ImpoSecre3 != null)
         {
             ImpoSecre3.CheckForImportantMessage();
         }
 
-        
-        
-        
         controlDialogos.position = new Vector3(1000, 365, 0);
         //cloud.enabled = !cloud.enabled;
-        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);        
+        FindObjectOfType<ControlDialogos>().ActivarCartel(textos);  
+
+        if (IsClicked == false)
+        {
+            ClickedEffect.SetActive(true);
+            ClickedEffect.transform.position = this.gameObject.transform.position;
+            IsClicked = true;
+            return;
+        }
+
+        if (IsClicked == true)
+        {
+            ClickedEffect.SetActive(false);
+            IsClicked = false;
+            return;
+        }
+
+        
+        
+        
+           
     }
 
     
