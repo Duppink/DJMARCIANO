@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {   
     public GameObject tableMessageEffect;
+    public GameObject[] notes = null;
     [Header("Scripts")]
     public AudioManager am = null;
     public AudioSource scratch;
@@ -120,11 +121,13 @@ public class GameManager : MonoBehaviour
         if (timeLeftToStage2 >= timeSong)
         {
             stage = 2;
+            notes[0].SetActive(true);
         } 
 
         if (timeLeftToStage3 >= timeSong)
         {
             stage = 3;
+            notes[1].SetActive(true);
         } 
 
         if (timeSong <= 0)

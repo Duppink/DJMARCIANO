@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 16}
+  m_AnchoredPosition: {x: -55, y: -39}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &257549168
@@ -181,10 +181,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mision 2: Cual es la relacion entre un agujero negro y el amor?\n\t"
+  m_text: "Misi\xF3n 2: \xBFCu\xE1l es la relaci\xF3n entre un agujero negro y el
+    amor?\n\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
-  m_sharedMaterial: {fileID: 3571613609221747336, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -556,7 +557,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: d6d82bfba490b9247988f70d906618f1, type: 3}
+  m_audioClip: {fileID: 8300000, guid: dfb2e89e63d98cf4ba171d9e4827a23f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -710,7 +711,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: 222}
+  m_AnchoredPosition: {x: -55, y: 173}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &603893039
@@ -733,10 +734,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mision 1: Por que se regalan un globo meteoro si se llevan bien?\n\t"
+  m_text: "Misi\xF3n 1: \xBFPor qu\xE9 se regalan un globo meteoro si se llevan bien?\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
-  m_sharedMaterial: {fileID: 3571613609221747336, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1171,7 +1172,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55, y: -186}
+  m_AnchoredPosition: {x: -55, y: -241}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1225710271
@@ -1194,10 +1195,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mision 3: Quien chucha me mando un globo UFO y por que?\n\t"
+  m_text: "Misi\xF3n 3: \xBFQui\xE9n chucha me mand\xF3 un globo UFO y por qu\xE9?\n\t"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
-  m_sharedMaterial: {fileID: 3571613609221747336, guid: b57c825142cf2f942a4d92a5744a4400, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
+  m_sharedMaterial: {fileID: 2147374, guid: 0161d805a3764c089bef00bfe00793f5, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
